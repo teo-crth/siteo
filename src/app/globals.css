@@ -1,8 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Josefin+Sans:wght@600&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import "tailwindcss";
 
 @theme {
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --mobile-screen: 480px;
+  --tablet-screen: 768px;
+  --desktop-screen: 1024px;
+  
+  --color-primary: #FEC514;
+  --color-secondary: #6600ff;
+  --color-tertiary: #A37E1B;
+  --color-middle: #503F15;
+  --color-dark: #1d1d1d;
+  --color-black-transparent: rgba(0, 0, 0, 0.5);
+  --color-dark-black: rgb(0, 0, 0);
+  --color-light: white;
+  --color-radial-gradient: radial-gradient(circle at 1% 100%, rgba(133, 107, 24, 1) 1%, rgba(0, 0, 0, 1) 100%);
+  --font-text: "Mulish", serif;
+  --font-title: "Baloo 2", cursive;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 :root {
@@ -20,5 +40,5 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Mulish", serif;
 }
