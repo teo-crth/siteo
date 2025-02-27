@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 const Faq = () => {
     return (
-        <div className='container-faqPage min-h-screen p-5'>
+        <div className='container-faqPage p-5'>
             <h1 className='text-center font-title text-4xl'>FAQ - Toutes vos questions sur la création d'un site par un freelance</h1>
         </div>
     );

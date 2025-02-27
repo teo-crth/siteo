@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
+import React from "react";
+import { AppProvider } from "../../context/context";
 import Header from "./components/ui/header";
 import Footer from "./components/ui/footer";
+import BurgerMenu from "./components/ui/burgerMenu";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -13,13 +16,20 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="fr">
       <body>
-        <Header />
-        <main>{children}</main>
-        <Footer />
+        <AppProvider>
+          <Header />
+          <main className="min-h-screen">
+            {children}
+          </main>
+          <Footer />
+          <BurgerMenu />
+        </AppProvider>
       </body>
+
     </html>
   );
 }

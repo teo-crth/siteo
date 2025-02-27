@@ -37,8 +37,14 @@
   }
 }
 
+.dark-mode body {
+  color: white;
+  background: #1d1d1d;
+}
+
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: #1d1d1d;
+  background: white;
   font-family: "Mulish", serif;
 }
+

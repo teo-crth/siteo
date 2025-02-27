@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 const Services = () => {
     return (
-        <div className='container-servicesPage min-h-screen'>
+        <div className='container-servicesPage'>
             <h1>Les prestations de SitEO</h1>
         </div>
     );

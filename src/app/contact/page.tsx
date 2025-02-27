@@ -8,8 +8,8 @@ export const metadata: Metadata = {
 
 const Contact = () => {
     return (
-        <div className='container-contactPage min-h-screen'>
-            <h1>Contact</h1>
+        <div className='container-contactPage p-5'>
+            <h1 className='font-title font-bold text-center text-4xl'>Contact</h1>
         </div>
     );
 };
