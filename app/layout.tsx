@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import React from "react";
-import { AppProvider } from "../../context/context";
+import { AppProvider } from "../context/context";
 import Header from "./components/ui/header";
-import Footer from "./components/ui/footer";
+import Footer from "./components/footer/Footer";
 import BurgerMenu from "./components/ui/burgerMenu";
 import "./globals.css";
 

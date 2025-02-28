@@ -3,7 +3,7 @@ import React, { useContext } from 'react';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark, faMoon } from '@fortawesome/free-solid-svg-icons';
-import { AppContext } from '../../../../context/context';
+import { AppContext } from '../../../context/context';
 
 const burgerMenu = () => {
     const { menuOpen, setMenuOpen, toggleTheme, isDarkMode } = useContext(AppContext);
@@ -19,7 +19,7 @@ const burgerMenu = () => {
     if (!menuOpen) return null;
 
     return (
-        <div className={ isDarkMode ? 'container-burgerMenu min-h-screen z-65 shadow-lg flex flex-col justify-start w-[70%] absolute left-0 bottom-0 h-full items-center bg-dark text-light' : 'container-burgerMenu min-h-screen z-65 shadow-lg flex flex-col justify-start w-[70%] absolute left-0 bottom-0 h-full items-center bg-light text-dark'}>
+        <div className={ isDarkMode ? 'container-burgerMenu min-h-screen z-65 shadow-lg flex flex-col justify-start w-[70%] left-0 bottom-0 h-full items-center bg-dark text-light fixed' : 'container-burgerMenu fixed min-h-full z-65 shadow-lg flex flex-col justify-start w-[70%] left-0 bottom-0 h-full items-center bg-light text-dark'}>
             <header className="container-header-burger flex justify-end items-center p-3 w-full">
                 <div className="container-close-icon flex justify-center items-center border-2 border-secondary w-[30px] h-[30px] rounded-full p-5 cursor-pointer" onClick={toggleMenu}>
                     <FontAwesomeIcon icon={faXmark} className='text-2xl'/>

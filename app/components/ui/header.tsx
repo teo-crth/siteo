@@ -3,7 +3,7 @@ import React, { useContext } from 'react';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faMoon } from '@fortawesome/free-solid-svg-icons';
-import { AppContext } from '../../../../context/context';
+import { AppContext } from '../../../context/context';
 
 const header = () => {
     const { menuOpen, setMenuOpen, toggleTheme, isDarkMode}  = useContext(AppContext);
@@ -29,6 +29,9 @@ const header = () => {
                 <nav className="gap-4 font-title font-bold tracking-wider hidden lg:flex xl:flex">
                     <Link href="/" className="cursor-pointer hover:text-secondary" aria-label="Navigation vers la page d'accueil" >
                         Accueil
+                    </Link>
+                    <Link href="/tarifs" className="cursor-pointer hover:text-secondary" aria-label="Navigation vers la page des tarifs" >
+                        Tarifs
                     </Link>
                     <Link href="/services" className="cursor-pointer hover:text-secondary" aria-label="Navigation vers la page des services" >
                         Services
