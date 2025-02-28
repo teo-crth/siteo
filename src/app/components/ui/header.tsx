@@ -33,8 +33,8 @@ const header = () => {
                     <Link href="/services" className="cursor-pointer hover:text-secondary" aria-label="Navigation vers la page des services" >
                         Services
                     </Link>
-                    <Link href="/portfoLinko" className="hover:text-secondary cursor-pointer" aria-label="Navigation vers le portefolio">
-                        PortfoLinko
+                    <Link href="/portfolio" className="hover:text-secondary cursor-pointer" aria-label="Navigation vers le portefolio">
+                        Portfolio
                     </Link>
                     <Link href="/faq" className="cursor-pointer hover:text-secondary" aria-label="Navigation vers la page foire aux questions">
                         FAQ
@@ -46,7 +46,7 @@ const header = () => {
                 <div className="container-darkmode justify-center items-center w-[30px] h-[30px] border-2 border-secondary rounded-full cursor-pointer hidden lg:flex xl:flex" onClick={toggleTheme}>
                     <FontAwesomeIcon icon={faMoon} className='w-full h-full text-secondary' />
                 </div>
-                <div className='container-burgerMenu-icon sm:block md:block lg:hidden xl:hidden text-dark' onClick={toggleMenu}>
+                <div className={ isDarkMode ? 'container-burgerMenu-icon sm:block md:block lg:hidden xl:hidden text-light' : 'container-burgerMenu-icon sm:block md:block lg:hidden xl:hidden text-dark'} onClick={toggleMenu}>
                     <FontAwesomeIcon icon={faBars} />
                 </div>
             </div>
