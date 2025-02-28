@@ -16,7 +16,7 @@ const header = () => {
 
     return (
         <header className="flex justify-between items-center p-4 shadow-lg z-10">
-            <div className="container-logo w-[100px] cursor-pointer">
+            <div className="container-logo w-[150px] cursor-pointer">
                 <a href="/">
                     { isDarkMode ?
                         <img src="/logo/siteo-white.webp" alt="Logo siteo" className='w-full'/>
@@ -26,7 +26,7 @@ const header = () => {
                 </a>
             </div>
             <div className="container-nav flex items-center flex-nowrap gap-2">
-                <nav className="gap-4 font-title font-bold tracking-wider hidden lg:flex xl:flex">
+                <nav className="gap-6 font-title font-bold tracking-wider hidden lg:flex xl:flex text-xl">
                     <Link href="/" className="cursor-pointer hover:text-secondary" aria-label="Navigation vers la page d'accueil" >
                         Accueil
                     </Link>
@@ -46,7 +46,7 @@ const header = () => {
                         Contact
                     </Link>
                 </nav>
-                <div className="container-darkmode justify-center items-center w-[30px] h-[30px] border-2 border-secondary rounded-full cursor-pointer hidden lg:flex xl:flex" onClick={toggleTheme}>
+                <div className="container-darkmode justify-center items-center w-[40px] h-[40px] border-2 border-secondary rounded-full cursor-pointer hidden lg:flex xl:flex m-2" onClick={toggleTheme}>
                     <FontAwesomeIcon icon={faMoon} className='w-full h-full text-secondary' />
                 </div>
                 <div className={ isDarkMode ? 'container-burgerMenu-icon sm:block md:block lg:hidden xl:hidden text-light' : 'container-burgerMenu-icon sm:block md:block lg:hidden xl:hidden text-dark'} onClick={toggleMenu}>
