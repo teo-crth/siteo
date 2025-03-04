@@ -41,7 +41,7 @@ const Tarifs = () => {
                         <h3 className='font-title font-bold text-4xl'>Site vitrine</h3>
                         <p className='font-title text-xl absolute bottom-2'>(1 page)</p>
                     </header>
-                    <h4 className='font-title font-bold text-2xl md:text-4xl lg:text-4xl xl:text-4xl text-center p-5 text-dark'>De 450€ à 1 200€</h4>
+                    <h4 className='font-title font-bold text-2xl md:text-4xl lg:text-4xl xl:text-4xl text-center p-5 text-dark'>De 300€ à 1 200€</h4>
                     <main className='flex flex-col items-center justify-center p-7 gap-3 text-dark'>
                         <p className='text-justify text-lg'>Présentation de votre entreprise ou projet en une seule page, claire, ergonomique et rapide à charger</p>
                         <ul className='list-tarifs font-title font-bold flex flex-col mt-5 gap-3'>
@@ -60,7 +60,7 @@ const Tarifs = () => {
                         </ul>
                     </main>
                     <div className="container-buttons flex gap-3 justify-center items-center mt-[15px] w-full absolute bottom-5">
-                        <Button type='button' className='bg-secondary hover:bg-indigo-800 px-5' text="DEVIS" router='/devis'/>
+                        <Button type='button' className='bg-secondary hover:bg-indigo-800 px-7' text="DEVIS" router='/devis'/>
                     </div>
                 </article>
                 <article className="card-vitrine rounded-xl shadow-lg h-[600px] w-[350px] bg-indigo-200 relative">
@@ -90,7 +90,7 @@ const Tarifs = () => {
                         </ul>
                     </main>
                     <div className="container-buttons flex gap-3 justify-center items-center mt-[15px] w-full absolute bottom-5">
-                        <Button type='button' className='bg-secondary hover:bg-indigo-800 px-5' text="DEVIS" router='/devis'/>
+                        <Button type='button' className='bg-secondary hover:bg-indigo-800 px-7' text="DEVIS" router='/devis'/>
                     </div>
                 </article>
                 <article className="card-ecommerce rounded-xl shadow-lg h-[600px] w-[350px] bg-indigo-200 relative">
@@ -99,7 +99,7 @@ const Tarifs = () => {
                     </header>
                     <h4 className='font-title font-bold text-2xl md:text-4xl lg:text-4xl xl:text-4xl text-center text-dark p-5'>De 3 000€ à 7 000€</h4>
                     <main className='flex flex-col items-center justify-center text-dark p-7 gap-3'>
-                        <p className='text-center'>Création d'un site e-commerce avec tunnel d'achat, panier, page produit et paiement sécurisé</p>
+                        <p className='text-justify text-lg'>Création d'un site e-commerce avec tunnel d'achat, panier, page produit et paiement sécurisé</p>
                         <ul className='list-tarifs font-title font-bold flex flex-col mt-5 gap-3'>
                         <div className="container-li flex items-center gap-2">
                             <span className='w-10 flex justify-center'><FontAwesomeIcon icon={faFilter} /></span>
@@ -120,19 +120,19 @@ const Tarifs = () => {
                         </ul>
                     </main>
                     <div className="container-buttons flex gap-3 justify-center items-center mt-[15px] w-full absolute bottom-5">
-                        <Button type='button' className='bg-secondary hover:bg-indigo-800 px-5' text="DEVIS" router='/devis'/>
+                        <Button type='button' className='bg-secondary hover:bg-indigo-800 px-7' text="DEVIS" router='/devis'/>
                     </div>
                 </article>
             </section>
             <section className="container-tarifs-divers flex flex-wrap items-start justify-center w-full gap-5">
                 <h2 className='font-title font-bold text-center text-4xl w-full p-10'>Prestations annexes</h2>
-                <article className='card-modification rounded-xl shadow-lg bg-indigo-200 w-[95%] md:w-[45%] lg:md:w-[45%] xl:md:w-[45%] min-h-[510px] relative'>
-                    <header className='header-card bg-secondary text-light rounded-t-xl p-3 shadow-lg text-center'>
+                <article className='card-modification rounded-xl shadow-lg bg-indigo-200 w-[95%] md:w-[45%] lg:w-[45%] xl:w-[45%] min-h-[650px]'>
+                    <header className='header-card bg-secondary text-light rounded-t-xl p-3 shadow-lg w-full h-[100px] flex flex-col items-center justify-center'>
                         <h3 className='font-title font-bold text-2xl text-center'>Modification / Refonte d'un site existant</h3>
                     </header>
-                    <h4 className='font-title font-bold text-2xl md:text-4xl lg:text-4xl xl:text-4xl text-center text-dark p-5'>De 200€ à 1 200€</h4>
+                    <h4 className='font-title font-bold text-2xl md:text-4xl lg:text-4xl xl:text-4xl text-center text-dark pt-5'>De 200€ à 1 200€</h4>
                     <main className='flex flex-col items-center justify-center text-dark p-7 gap-3'>
-                        <p className='text-justify'>Changement graphique du site, modification structurel ou ajout de fonctionnalités.</p>
+                        <p className='text-justify text-lg'>Que vous souhaitiez moderniser l'apparence graphique de votre site, ajouter de nouvelles fonctionnalités, ou améliorer sa structure, je vous accompagnerais en tant que développeur informatique.  Un site web performant et attrayant est une des clés pour le succès de votre entreprise.</p>
                         <ul className='list-tarifs font-title font-bold flex flex-col mt-5 gap-3'>
                         <div className="container-li flex items-center gap-2">
                             <span className='w-10 flex justify-center'><FontAwesomeIcon icon={faPaintBrush} /></span>
@@ -156,17 +156,17 @@ const Tarifs = () => {
                         </div>
                         </ul>
                     </main>
-                    <div className="container-buttons flex gap-3 justify-center items-center mt-[15px] w-full absolute bottom-5">
-                        <Button type='button' className='bg-secondary hover:bg-indigo-800 px-5' text="DEVIS" router='/devis'/>
+                    <div className="container-buttons flex gap-3 justify-center items-center mt-[15px] mb-[15px] w-full">
+                        <Button type='button' className='bg-secondary hover:bg-indigo-800 px-7' text="DEVIS" router='/devis'/>
                     </div>
                 </article>
-                <article className="card-formation rounded-xl shadow-lg bg-indigo-200 w-[95%] md:w-[45%] lg:md:w-[45%] xl:md:w-[45%] min-h-[510px]">
-                    <header className='header-card bg-secondary text-light rounded-t-xl p-3 shadow-lg text-center'>
+                <article className="card-formation rounded-xl shadow-lg bg-indigo-200 w-[95%] md:w-[45%] lg:w-[45%] xl:w-[45%] min-h-[650px]">
+                    <header className='header-card bg-secondary text-light rounded-t-xl p-3 shadow-lg w-full h-[100px] flex flex-col items-center justify-center'>
                         <h3 className='font-title font-bold text-2xl text-center'>Formation Wordpress</h3>
                     </header>
                     <h4 className='font-title font-bold text-2xl md:text-4xl lg:text-4xl xl:text-4xl text-center text-dark p-5'>De 100€ à 300€</h4>
                     <main className='flex flex-col items-center justify-center text-dark p-7 gap-3'>
-                        <p className='text-justify'>Formation à l'utilisation de Wordpress pour gérer votre site internet</p>
+                        <p className='text-justify text-lg'>Formation à l'utilisation de Wordpress pour gérer votre site internet. Découvrez notre formation complète à l'utilisation de WordPress, conçue pour vous aider à gérer efficacement votre site internet. Que vous soyez débutant ou souhaitiez approfondir vos connaissances, cette formation vous offre des outils pratiques pour créer et optimiser votre contenu en ligne.</p>
                         <ul className='list-tarifs font-title font-bold flex flex-col mt-5 gap-3'>
                         <div className="container-li flex items-center gap-2">
                         <span className='w-10 flex justify-center'><FontAwesomeIcon icon={faCirclePlus} /></span>
@@ -187,16 +187,16 @@ const Tarifs = () => {
                         </ul>
                     </main>
                     <div className="container-buttons flex gap-3 justify-center items-center mt-[15px] mb-[15px] w-full">
-                        <Button type='button' className='bg-secondary hover:bg-indigo-800 px-5' text="DEVIS" router='/devis'/>
+                        <Button type='button' className='bg-secondary hover:bg-indigo-800 px-7' text="DEVIS" router='/devis'/>
                     </div>
                 </article>
-                <article className="card-maintenance  rounded-xl shadow-lg bg-indigo-200 w-[95%] md:w-[45%] lg:md:w-[45%] xl:md:w-[45%] min-h-[510px]">
-                    <header className='header-card bg-secondary text-light rounded-t-xl p-3 shadow-lg text-center'>
+                <article className="card-maintenance  rounded-xl shadow-lg bg-indigo-200 w-[95%] md:w-[45%] lg:w-[45%] xl:w-[45%]  min-h-[650px]">
+                    <header className='header-card bg-secondary text-light rounded-t-xl p-3 shadow-lg w-full h-[100px] flex flex-col items-center justify-center'>
                         <h3 className='font-title font-bold text-2xl text-center'>Maintenance ponctuelle</h3>
                     </header>
                     <h4 className='font-title font-bold text-2xl md:text-4xl lg:text-4xl xl:text-4xl text-center text-dark p-5'>30€ / heure</h4>
                     <main className='flex flex-col items-center justify-center text-dark p-7 gap-3'>
-                        <p className='text-center'>Mise à jour de votre site internet, sauvegarde, sécurité, etc.</p>
+                        <p className='text-justify text-lg'>Mise à jour de votre site internet, sauvegarde, sécurité, etc. Idéal lorsque vous avez besoin de rajouter / modifier du texte, mettre à jour la version PHP ou les plugins du site.</p>
                         <ul className='list-tarifs font-title font-bold flex flex-col mt-5 gap-3'>
                         <div className="container-li flex items-center gap-2">
                         <span className='w-10 flex justify-center'><FontAwesomeIcon icon={faPenToSquare} /></span>
@@ -221,7 +221,7 @@ const Tarifs = () => {
                         </ul>
                     </main>
                     <div className="container-buttons flex gap-3 justify-center items-center mt-[15px] mb-[15px] w-full">
-                        <Button type='button' className='bg-secondary hover:bg-indigo-800 px-5' text="DEVIS" router='/devis'/>
+                        <Button type='button' className='bg-secondary hover:bg-indigo-800 px-7' text="DEVIS" router='/devis'/>
                     </div>
                 </article>
             </section>
