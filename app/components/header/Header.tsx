@@ -15,7 +15,7 @@ const header = () => {
     }
 
     return (
-        <header className="flex justify-between items-center p-4 shadow-lg z-10">
+        <header className={ isDarkMode ? "flex justify-between items-center p-4 shadow-md shadow-gray-700 z-10" : "flex justify-between items-center p-4 shadow-md shadow-gray-100 z-10"}>
             <div className="container-logo w-[150px] cursor-pointer">
                 <a href="/">
                     { isDarkMode ?

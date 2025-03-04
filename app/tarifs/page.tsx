@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 
 const Tarifs = () => {
     return (
-        <div className="container-portfolio flex flex-col items-center justify-start w-full p-8 pb-20 gap-5 sm:p-20 min-h-[calc(100vh-159px)]">
+        <div className="container-tarifs flex flex-col items-center justify-start w-full p-8 pb-20 gap-5 sm:p-15 min-h-[calc(100vh-159px)]">
             <h1 className='text-center font-bold font-title md:text-6xl lg:text-6xl xl:text-6xl text-4xl text-secondary'>Mes tarifs en tant que développeur freelance</h1>
             <section className="container-tarifs-site flex flex-wrap items-start justify-center w-full gap-3">
                 <h2 className='font-title font-bold text-center text-4xl w-full mb-3'>Prix pour la création d'un site web</h2>
@@ -225,6 +225,19 @@ const Tarifs = () => {
                     </div>
                 </article>
             </section>
+            <section className='container-fourchette flex flex-col items-center justify-center w-full gap-5 font-title'>
+                <h2 className='text-center font-bold md:text-6xl lg:text-6xl xl:text-6xl text-4xl mt-10 text-secondary'> Comprendre les fourchettes de prix</h2>
+                <article className='card-fourchette flex flex-col justify-center items-center rounded-xl shadow-lg w-[95%] md:w-[60%] lg:w-[60%] xl:w-[60%]'>
+                    <h3 className='w-full text-center font-bold text-2xl p-5'>Pourquoi autant d'écart de prix pour un même type de site ?</h3>
+                    <p className='text-justify text-xl p-4 w-full'>Certains clients ont des besoins spécifiques en terme de fonctionnalités ou de graphisme. Ces spécificités peuvent doubler le temps de travail pour réaliser leur site. C'est pourquoi les fourchettes de prix peuvent être importantes. </p>
+                    <p className='text-justify text-xl p-4 w-full'>C'est pour cela qu'il est important d'être le plus précis possible dans la description de vos besoins afin que le devis puisse être ajusté au mieux. Un rendez-vous téléphonique gratuit est idéal pour un devis bien estimé !</p>
+                    <Link href='/devis' className='text-center font-bold text-xl p-5 text-blue-700 cursor-pointer' >
+                        Si le devis nous convient, quelles sont les prochaines étapes ?
+                    </Link>
+
+                </article>
+            </section>
+
         </div>
     );
 };
