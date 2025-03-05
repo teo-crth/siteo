@@ -48,3 +48,36 @@ body {
   font-family: "Mulish", serif;
 }
 
+button.slick-arrow.slick-next::before, button.slick-arrow.slick-prev::before {
+  display: none;
+  font-size: 0; /* Remove the default font icon if you're using custom icons */
+}
+
+
+@media screen and (min-width: 668px) {
+  button.slick-arrow.slick-next::before, button.slick-arrow.slick-prev::before {
+    display: block;
+    font-size: 40px;
+    color: #6600ff;
+  }
+
+  button.slick-arrow.slick-next,
+  button.slick-arrow.slick-prev {
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%);
+
+  }
+
+  button.slick-arrow.slick-next {
+    right: -80px;
+  }
+
+  button.slick-arrow.slick-prev {
+    left: -80px;
+  }
+
+}
+
+  
+

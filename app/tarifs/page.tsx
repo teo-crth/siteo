@@ -226,8 +226,8 @@ const Tarifs = () => {
                 </article>
             </section>
             <section className='container-fourchette flex flex-col items-center justify-center w-full gap-5 font-title'>
-                <h2 className='text-center font-bold md:text-6xl lg:text-6xl xl:text-6xl text-4xl mt-10 text-secondary'> Comprendre les fourchettes de prix</h2>
-                <article className='card-fourchette flex flex-col justify-center items-center rounded-xl shadow-lg w-[95%] md:w-[60%] lg:w-[60%] xl:w-[60%]'>
+                <h2 className='text-center font-bold md:text-6xl lg:text-6xl xl:text-6xl text-4xl m-10 text-secondary'> Comprendre les fourchettes de prix</h2>
+                <article className='card-fourchette flex flex-col justify-center items-center rounded-xl w-[95%] md:w-[60%] lg:w-[60%] xl:w-[60%] bg-white/15 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-lg border border-white/18'>
                     <h3 className='w-full text-center font-bold text-2xl p-5'>Pourquoi autant d'écart de prix pour un même type de site ?</h3>
                     <p className='text-justify text-xl p-4 w-full'>Certains clients ont des besoins spécifiques en terme de fonctionnalités ou de graphisme. Ces spécificités peuvent doubler le temps de travail pour réaliser leur site. C'est pourquoi les fourchettes de prix peuvent être importantes. </p>
                     <p className='text-justify text-xl p-4 w-full'>C'est pour cela qu'il est important d'être le plus précis possible dans la description de vos besoins afin que le devis puisse être ajusté au mieux. Un rendez-vous téléphonique gratuit est idéal pour un devis bien estimé !</p>
