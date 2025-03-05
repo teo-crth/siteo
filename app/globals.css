@@ -66,7 +66,6 @@ button.slick-arrow.slick-next::before, button.slick-arrow.slick-prev::before {
     position: absolute;
     top: 50%; 
     transform: translateY(-50%);
-
   }
 
   button.slick-arrow.slick-next {

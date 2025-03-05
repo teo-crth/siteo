@@ -60,7 +60,7 @@ const CustomSlider: React.FC<CustomSliderProps> = ({ site }) => {
                 {site === "addm" && (
                     <img
                         className="object-cover h-full w-full rounded-b-lg"
-                        src={isMobile ? "/images/addm/addm-search-2-mobile.png" : "/images/addm/addm-accueil-2.png"}
+                        src={isMobile ? "/images/addm/addm-menu-mobile.png" : "/images/addm/addm-accueil-2.png"}
                         alt="Image page d'accueil avec des livres au détour des mots"
                     />
                 )}
@@ -87,6 +87,13 @@ const CustomSlider: React.FC<CustomSliderProps> = ({ site }) => {
                         className="object-cover h-full w-full rounded-b-lg"
                         src={isMobile ? "/images/opandco/op-4-mobile.png" : "/images/opandco/op-4.png"}
                         alt="Image page d'accueil OP&Co"
+                    />
+                )}
+                {site === "addm" && (
+                    <img
+                        className="object-cover h-full w-full rounded-b-lg"
+                        src={isMobile ? "/images/addm/addm-search-mobile.png" : "/images/addm/addm-search.png"}
+                        alt="Image page d'accueil avec des livres au détour des mots"
                     />
                 )}
             </div>
