@@ -36,64 +36,92 @@ const CustomSlider: React.FC<CustomSliderProps> = ({ site }) => {
             <div className='w-full h-[750px] md:h-[450px] lg:h-[450px] xl:h-[450px]'>
                 {site === "opandco" && (
                     <img
-                        className="object-cover h-full w-full rounded-b-lg"
+                        className="object-cover object-top h-full w-full rounded-b-lg"
                         src={isMobile ? "/images/opandco/op-1-mobile.png" : "/images/opandco/op-1.png"}
                         alt="Image page d'accueil OP&Co"
                     />
                 )}
                 {site === "addm" && (
                     <img
-                        className="object-cover h-full w-full rounded-b-lg"
+                        className="object-cover object-top h-full w-full rounded-b-lg"
                         src={isMobile ? "/images/addm/addm-accueil-1-mobile.png" : "/images/addm/addm-accueil.png"}
                         alt="Image page d'accueil au détour des mots"
+                    />
+                )}
+                {site === "beerhunter" && (
+                    <img
+                        className="object-cover object-top h-full w-full rounded-b-lg"
+                        src={isMobile ? "/images/beerhunter/accueil-mobile.png" : "/images/beerhunter/accueil.png"}
+                        alt="Image page d'accueil beerhunter"
                     />
                 )}
             </div>
             <div className='w-full h-[750px] md:h-[450px] lg:h-[450px] xl:h-[450px]'>
                 {site === "opandco" && (
                     <img
-                        className="object-cover h-full w-full rounded-b-lg"
+                        className="object-cover object-top h-full w-full rounded-b-lg"
                         src={isMobile ? "/images/opandco/op-2-mobile.png" : "/images/opandco/op-2.png"}
                         alt="Image tarifs OP&Co"
                     />
                 )}
                 {site === "addm" && (
                     <img
-                        className="object-cover h-full w-full rounded-b-lg"
+                        className="object-cover object-top h-full w-full rounded-b-lg"
                         src={isMobile ? "/images/addm/addm-menu-mobile.png" : "/images/addm/addm-accueil-2.png"}
                         alt="Image page d'accueil avec des livres au détour des mots"
+                    />
+                )}
+                {site === "beerhunter" && (
+                    <img
+                        className="object-cover object-top h-full w-full rounded-b-lg"
+                        src={isMobile ? "/images/beerhunter/barpage-mobile.png" : "/images/beerhunter/barpage.png"}
+                        alt="Image page d'un bar beerhunter"
                     />
                 )}
             </div>
             <div className='w-full h-[750px] md:h-[450px] lg:h-[450px] xl:h-[450px]'>
                 {site === "opandco" && (
                     <img
-                        className="object-cover h-full w-full rounded-b-lg"
+                        className="object-cover object-top h-full w-full rounded-b-lg"
                         src={isMobile ? "/images/opandco/op-3-mobile.png" : "/images/opandco/op-3.png"}
                         alt="Image page d'accueil OP&Co"
                     />
                 )}
                 {site === "addm" && (
                     <img
-                        className="object-cover h-full w-full rounded-b-lg"
+                        className="object-cover object-top h-full w-full rounded-b-lg"
                         src={isMobile ? "/images/addm/addm-bookPage-mobile.png" : "/images/addm/addm-bookPage.png"}
                         alt="Image page d'accueil avec des livres au détour des mots"
+                    />
+                )}
+                {site === "beerhunter" && (
+                    <img
+                        className="object-cover object-top h-full w-full rounded-b-lg"
+                        src={isMobile ? "/images/beerhunter/signup-mobile.png" : "/images/beerhunter/signup.png"}
+                        alt="Image page d'inscription beerhunter"
                     />
                 )}
             </div>
             <div className='w-full h-[750px] md:h-[450px] lg:h-[450px] xl:h-[450px]'>
                 {site === "opandco" && (
                     <img
-                        className="object-cover h-full w-full rounded-b-lg"
+                        className="object-cover object-top h-full w-full rounded-b-lg"
                         src={isMobile ? "/images/opandco/op-4-mobile.png" : "/images/opandco/op-4.png"}
                         alt="Image page d'accueil OP&Co"
                     />
                 )}
                 {site === "addm" && (
                     <img
-                        className="object-cover h-full w-full rounded-b-lg"
+                        className="object-cover object-top h-full w-full rounded-b-lg"
                         src={isMobile ? "/images/addm/addm-search-mobile.png" : "/images/addm/addm-search.png"}
                         alt="Image page d'accueil avec des livres au détour des mots"
+                    />
+                )}
+                {site === "beerhunter" && (
+                    <img
+                        className="object-cover object-top h-full w-full rounded-b-lg"
+                        src={isMobile ? "/images/beerhunter/beerpage-mobile.png" : "/images/beerhunter/beerpage.png"}
+                        alt="Image page d'inscription beerhunter"
                     />
                 )}
             </div>
