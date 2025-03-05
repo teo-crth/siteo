@@ -1,6 +1,11 @@
 import Link from "next/link";
-import Button from "./components/ui/button";
+import Button from './components/ui/button';
+import type { Metadata } from "next";
 
+export const metadata: Metadata = {
+    title: "Création de site internet - Demandez un devis gratuit",
+    description: "Création de site internet sur-mesure, référencement naturel, maintenance, hébergement, formation Wordpress, audit, conseil, etc. Découvrez toutes les prestations de SitEO pour la création de votre site internet."
+};
 
 export default function Home() {
 
@@ -11,7 +16,7 @@ export default function Home() {
         <h2 className="text-center font-bold font-title md:text-2xl lg:text-2xl xl:text-2xl text-xl text-dark">Développeur freelance à Aix-en-Provence</h2>
         <h3 className="text-center font-bold font-title md:text-xl lg:text-xl xl:text-xl text-lg text-gray-600">Site vitrine, Blog, Site E-commerce</h3>
         <div className="container-button w-full flex justify-center mt-5">
-          <Link href="/devis-site-internet" className="cursor-pointer" aria-label="Navigation vers la page de demande de devis">
+          <Link href="/devis/site-web" className="cursor-pointer" aria-label="Navigation vers la page de demande de devis">
             <Button text="Demander un devis" type="button" className="bg-secondary text-light" />
           </Link>
         </div>

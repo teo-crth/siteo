@@ -35,6 +35,10 @@ export const AppProvider = ({ children }: AppProviderProps) => {
 
   useEffect(() => {
     localStorage.setItem('darkMode', JSON.stringify(isDarkMode));
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem('darkMode', JSON.stringify(isDarkMode));
   }, [isDarkMode]);
 
   useEffect(() => {

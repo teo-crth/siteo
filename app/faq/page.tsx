@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 const Faq = () => {
     return (
-        <div className='container-faqPage flex flex-col items-center justify-start w-full p-8 pb-20 gap-5 sm:p-15 min-h-[calc(100vh-159px)]'>
+        <div className='container-faqPage flex flex-col items-center justify-start w-full p-8 pb-20 gap-5 sm:p-15'>
             <h1 className='font-title font-bold text-center text-4xl md:text-6xl lg:text-6xl xl:text-6xl text-secondary'>FAQ - Toutes vos questions sur la création d'un site par un freelance</h1>
             <section className='container-questions-sites font-title'>
                 <h2 className="font-title font-bold text-center text-4xl w-full p-10">Quel type de site privilégier ?</h2>

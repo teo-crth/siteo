@@ -22,7 +22,7 @@ export default function RootLayout({
       <body>
         <AppProvider>
           <Header />
-          <main className="min-h-screen">
+          <main className="min-h-[calc(100vh-152px)]">
             {children}
           </main>
           <Footer />

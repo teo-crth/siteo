@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 
 const Tarifs = () => {
     return (
-        <div className="container-tarifs flex flex-col items-center justify-start w-full p-8 pb-20 gap-5 sm:p-15 min-h-[calc(100vh-159px)]">
+        <div className="container-tarifs flex flex-col items-center justify-start w-full p-8 pb-20 gap-5 sm:p-15">
             <h1 className='text-center font-bold font-title md:text-6xl lg:text-6xl xl:text-6xl text-4xl text-secondary'>Mes tarifs en tant que développeur freelance</h1>
             <section className="container-tarifs-site flex flex-wrap items-start justify-center w-full gap-3">
                 <h2 className='font-title font-bold text-center text-4xl w-full mb-3'>Prix pour la création d'un site web</h2>
@@ -60,7 +60,7 @@ const Tarifs = () => {
                         </ul>
                     </main>
                     <div className="container-buttons flex gap-3 justify-center items-center mt-[15px] w-full absolute bottom-5">
-                        <Button type='button' className='bg-secondary hover:bg-indigo-800 px-7' text="DEVIS" router='/devis'/>
+                        <Button type='button' className='bg-secondary hover:bg-indigo-800 px-7' text="DEVIS" router='/devis/site-vitrine'/>
                     </div>
                 </article>
                 <article className="card-vitrine rounded-xl shadow-lg h-[600px] w-[350px] bg-indigo-200 relative">
@@ -90,7 +90,7 @@ const Tarifs = () => {
                         </ul>
                     </main>
                     <div className="container-buttons flex gap-3 justify-center items-center mt-[15px] w-full absolute bottom-5">
-                        <Button type='button' className='bg-secondary hover:bg-indigo-800 px-7' text="DEVIS" router='/devis'/>
+                        <Button type='button' className='bg-secondary hover:bg-indigo-800 px-7' text="DEVIS" router='/devis/site-vitrine-plus'/>
                     </div>
                 </article>
                 <article className="card-ecommerce rounded-xl shadow-lg h-[600px] w-[350px] bg-indigo-200 relative">
@@ -120,7 +120,7 @@ const Tarifs = () => {
                         </ul>
                     </main>
                     <div className="container-buttons flex gap-3 justify-center items-center mt-[15px] w-full absolute bottom-5">
-                        <Button type='button' className='bg-secondary hover:bg-indigo-800 px-7' text="DEVIS" router='/devis'/>
+                        <Button type='button' className='bg-secondary hover:bg-indigo-800 px-7' text="DEVIS" router='/devis/site-ecommerce'/>
                     </div>
                 </article>
             </section>
@@ -187,7 +187,7 @@ const Tarifs = () => {
                         </ul>
                     </main>
                     <div className="container-buttons flex gap-3 justify-center items-center mt-[15px] mb-[15px] w-full">
-                        <Button type='button' className='bg-secondary hover:bg-indigo-800 px-7' text="DEVIS" router='/devis'/>
+                        <Button type='button' className='bg-secondary hover:bg-indigo-800 px-7' text="DEVIS" router='/devis/formation-wordpress'/>
                     </div>
                 </article>
                 <article className="card-maintenance  rounded-xl shadow-lg bg-indigo-200 w-[95%] md:w-[45%] lg:w-[45%] xl:w-[45%]  min-h-[650px]">
@@ -221,7 +221,7 @@ const Tarifs = () => {
                         </ul>
                     </main>
                     <div className="container-buttons flex gap-3 justify-center items-center mt-[15px] mb-[15px] w-full">
-                        <Button type='button' className='bg-secondary hover:bg-indigo-800 px-7' text="DEVIS" router='/devis'/>
+                        <Button type='button' className='bg-secondary hover:bg-indigo-800 px-7' text="Contactez-moi" router='/contact'/>
                     </div>
                 </article>
             </section>
