@@ -17,13 +17,13 @@ const header = () => {
     return (
         <header className={ isDarkMode ? "flex justify-between items-center p-4 shadow-md shadow-gray-700 z-10" : "flex justify-between items-center p-4 shadow-md shadow-gray-100 z-10"}>
             <div className="container-logo w-[150px] cursor-pointer">
-                <a href="/">
+                <Link href="/" className="cursor-pointer" aria-label="Navigation vers la page d'accueil" >
                     { isDarkMode ?
                         <img src="/logo/siteo-white.webp" alt="Logo siteo" className='w-full'/>
                         :
                         <img src="/logo/siteo.webp" alt="Logo siteo" className='w-full'/>
                     }
-                </a>
+                </Link>
             </div>
             <div className="container-nav flex items-center flex-nowrap gap-2">
                 <nav className="gap-6 font-title font-bold tracking-wider hidden lg:flex xl:flex text-xl">
