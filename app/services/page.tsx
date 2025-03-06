@@ -9,12 +9,13 @@ export const metadata: Metadata = {
 
 const Services = () => {
     return (
-        <div className='container-servicesPage flex flex-col items-center justify-start w-full p-8 pb-20 gap-5 sm:p-15'>
+        <div className='container-servicesPage flex flex-col items-center justify-start w-full p-8 pb-20 gap-5'>
             <h1 className='font-title font-bold text-center text-4xl md:text-6xl lg:text-6xl xl:text-6xl text-secondary text-shadow-white'>Prestations d'un développeur professionnel</h1>
             <div className="container-sections flex flex-col gap-5 w-full p-5">
-                <h2 className="font-title font-bold text-center text-xl md:text-4xl w-full p-10">Création de site web & choix du format le plus adapté à vos problèmatiques</h2>
+                <h2 className="font-title font-bold text-center text-4xl w-full p-10">Création de site web</h2>
+                <h3 className="font-title font-bold text-center text-2xl md:text-4xl w-full p-10">Choix du format le plus adapté à vos problèmatiques</h3>
                 <section className="sites flex flex-wrap justify-center items-start gap-3">
-                    <article className='section-surmesure flex justify-center items-start p-5 w-[95%] md:w-[70%] lg:w-[32%] xl:w-[32%]'>
+                    <article className='section-surmesure flex justify-center items-start p-5 w-[97%] md:w-[70%] lg:w-[32%] xl:w-[32%]'>
                         <div className="card bg-white/15 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-lg border rounded-xl border-white/18 flex flex-col justify-start items-center gap-5 min-h-[300px]">
                             <header className='header-card bg-secondary text-light rounded-t-xl p-3 shadow-lg min-h-[100px] w-full flex flex-col items-center justify-center relative'>
                                 <h3 className='font-title font-bold text-center text-2xl md:text-4xl'>Site internet sur-mesure</h3>
@@ -35,7 +36,7 @@ const Services = () => {
                             </Link>
                         </div>
                     </article>
-                    <article className='section-wordpress flex justify-center items-start p-5 w-[95%] md:w-[70%] lg:w-[32%] xl:w-[32%]'>
+                    <article className='section-wordpress flex justify-center items-start p-5 w-[97%] md:w-[70%] lg:w-[32%] xl:w-[32%]'>
                         <div className="card bg-white/15 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-lg border rounded-xl border-white/18 flex flex-col justify-start items-center gap-5 min-h-[300px]">
                             <header className='header-card bg-secondary text-light rounded-t-xl p-3 shadow-lg min-h-[100px] w-full flex flex-col items-center justify-center relative'>
                                 <h3 className='font-title font-bold text-center text-2xl md:text-4xl'>Site internet Wordpress</h3>
@@ -56,7 +57,7 @@ const Services = () => {
                             </Link>
                         </div>
                     </article>
-                    <article className='section-vitrine flex justify-center items-start p-5 w-[95%] md:w-[70%] lg:w-[32%] xl:w-[32%]'>
+                    <article className='section-vitrine flex justify-center items-start p-5 w-[97%] md:w-[70%] lg:w-[32%] xl:w-[32%]'>
                         <div className="card bg-white/15 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-lg border rounded-xl border-white/18 flex flex-col justify-start items-center gap-5 min-h-[300px]">
                             <header className='header-card bg-secondary text-light rounded-t-xl p-3 shadow-lg min-h-[100px] w-full flex flex-col items-center justify-center relative'>
                                 <h3 className='font-title font-bold text-center text-2xl md:text-4xl'>Site vitrine</h3>
@@ -79,7 +80,7 @@ const Services = () => {
                 </section>
                 <h2 className="font-title font-bold text-center text-xl md:text-4xl w-full p-10">Services complémentaires pour un site existant</h2>
                 <section className="site-already-exist flex flex-wrap justify-center items-start gap-3">
-                    <article className='section-modification flex justify-center items-center p-5 w-[95%] md:w-[70%] lg:w-[48%] xl:w-[48%]'>
+                    <article className='section-modification flex justify-center items-center p-5 w-[97%] md:w-[70%] lg:w-[48%] xl:w-[48%]'>
                         <div className="card bg-white/25 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-lg border rounded-xl min-h-[320px] border-white/18 flex flex-col justify-start items-center gap-4">
                             <header className='header-card bg-secondary text-light rounded-t-xl p-3 shadow-lg min-h-[100px] w-full flex flex-col items-center justify-center relative'>
                                 <h3 className='font-title font-bold text-center text-2xl md:text-4xl'>Modification de site internet</h3>
@@ -96,7 +97,7 @@ const Services = () => {
                             </details>
                         </div>
                     </article>
-                    <article className='section-seo flex justify-center items-center p-5 w-[95%] md:w-[70%] lg:w-[48%] xl:w-[48%]'>
+                    <article className='section-seo flex justify-center items-center p-5 w-[97%] md:w-[70%] lg:w-[48%] xl:w-[48%]'>
                         <div className="card bg-white/25 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-lg border rounded-xl border-white/18 flex flex-col justify-start items-center gap-4 min-h-[280px]">
                             <header className='header-card bg-secondary text-light rounded-t-xl p-3 shadow-lg min-h-[100px] w-full flex flex-col items-center justify-center relative'>
                                 <h3 className='font-title font-bold text-center text-2xl md:text-4xl'>Référencement naturel (SEO)</h3>
@@ -120,7 +121,7 @@ const Services = () => {
                 <section className="container-sav">
                     <h2 className="font-title font-bold text-center text-4xl w-full p-10">Service après vente</h2>
                     <article className='section-maintenance flex justify-center items-center p-5 w-full'>
-                        <div className="card bg-white/25 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-lg border rounded-xl border-white/18 w-[95%] md:w-[70%] lg:w-[50%] xl:w-[50%] flex flex-col justify-center items-center gap-2">
+                        <div className="card bg-white/25 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-lg border rounded-xl border-white/18 w-[97%] md:w-[70%] lg:w-[50%] xl:w-[50%] flex flex-col justify-center items-center gap-2">
                             <header className='header-card bg-secondary text-light rounded-t-xl p-3 shadow-lg min-h-[100px] w-full flex flex-col items-center justify-center relative'>
                                 <h3 className='font-title font-bold text-center text-2xl md:text-4xl'>Maintenance de site internet</h3>
                             </header>
