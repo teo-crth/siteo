@@ -128,7 +128,7 @@ const Tarifs = () => {
                 <h2 className='font-title font-bold text-center text-4xl w-full p-10'>Prestations annexes</h2>
                 <article className='card-modification rounded-xl shadow-lg bg-indigo-200 w-[95%] md:w-[45%] lg:w-[45%] xl:w-[45%] min-h-[650px]'>
                     <header className='header-card bg-secondary text-light rounded-t-xl p-3 shadow-lg w-full h-[100px] flex flex-col items-center justify-center'>
-                        <h3 className='font-title font-bold text-4xl text-center'>Modification / Refonte d'un site existant</h3>
+                        <h3 className='font-title font-bold text-4xl text-center'>Modification site existant</h3>
                     </header>
                     <h4 className='font-title font-bold text-2xl md:text-4xl lg:text-4xl xl:text-4xl text-center text-dark pt-5'>De 200€ à 1 200€</h4>
                     <main className='flex flex-col items-center justify-center text-dark p-7 gap-3'>
