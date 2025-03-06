@@ -10,6 +10,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Siteo - Création de site Web",
   description: "Vous avez besoin d'un site Web ? Nous sommes là pour vous aider ! Obtenez un site professionnel et sur-mesure et bien référencé. Contactez-nous dès maintenant !",
+  verification: {
+    google: "RIQOS-Fty0kis8RDCJMLYiQUwHzEQhddqkZYEVPjBmY",
+  }
 };
 
 export default function RootLayout({
