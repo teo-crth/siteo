@@ -72,7 +72,7 @@ export default function CustomGoogleForm({ devisType }: { devisType: string }) {
     }
 
     return (
-        <div className="max-w-lg mx-auto p-4">
+        <div className="container-formDevis w-[95%] md:w-[60%] lg:w-[50%] xl:w-[40%] p-5">
             <form onSubmit={handleFormSubmit} className="flex flex-col gap-4 font-title">
                 <input
                     type="text"

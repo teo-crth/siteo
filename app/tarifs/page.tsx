@@ -157,7 +157,7 @@ const Tarifs = () => {
                         </ul>
                     </main>
                     <div className="container-buttons flex gap-3 justify-center items-center mt-[15px] mb-[15px] w-full">
-                        <Button type='button' className='bg-secondary hover:bg-indigo-800 px-7' text="DEVIS" router='/devis'/>
+                        <Button type='button' className='bg-secondary hover:bg-indigo-800 px-7' text="DEVIS" router='/devis/modification-site'/>
                     </div>
                 </article>
                 <article className="card-formation rounded-xl shadow-lg bg-indigo-200 w-[95%] md:w-[45%] lg:w-[45%] xl:w-[45%] min-h-[650px]">

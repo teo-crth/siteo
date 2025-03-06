@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import React from "react";
+import Head from "next/head";
 import { AppProvider } from "../context/context";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
@@ -16,9 +17,26 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Siteo",
+    "alternateName": "SitEO",
+    "url": `${BASE_URL}`,
+  };
 
   return (
     <html lang="fr">
+      <Head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
+      </Head>
       <body>
         <AppProvider>
           <Header />
