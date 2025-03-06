@@ -32,8 +32,8 @@ const CustomSlider: React.FC<CustomSliderProps> = ({ site }) => {
     };
 
     return (
-        <Slider {...settings} className='w-full h-[750px] md:h-[450px] lg:h-[450px] xl:h-[450px]'>
-            <div className='w-full h-[750px] md:h-[450px] lg:h-[450px] xl:h-[450px]'>
+        <Slider {...settings} className='w-full h-[550px] md:h-[450px] lg:h-[450px] xl:h-[450px]'>
+            <div className='w-full h-[550px] md:h-[450px] lg:h-[450px] xl:h-[450px]'>
                 {site === "opandco" && (
                     <img
                         className="object-cover object-top h-full w-full rounded-b-lg"
@@ -56,7 +56,7 @@ const CustomSlider: React.FC<CustomSliderProps> = ({ site }) => {
                     />
                 )}
             </div>
-            <div className='w-full h-[750px] md:h-[450px] lg:h-[450px] xl:h-[450px]'>
+            <div className='w-full h-[550px] md:h-[450px] lg:h-[450px] xl:h-[450px]'>
                 {site === "opandco" && (
                     <img
                         className="object-cover object-top h-full w-full rounded-b-lg"
@@ -79,7 +79,7 @@ const CustomSlider: React.FC<CustomSliderProps> = ({ site }) => {
                     />
                 )}
             </div>
-            <div className='w-full h-[750px] md:h-[450px] lg:h-[450px] xl:h-[450px]'>
+            <div className='w-full h-[550px] md:h-[450px] lg:h-[450px] xl:h-[450px]'>
                 {site === "opandco" && (
                     <img
                         className="object-cover object-top h-full w-full rounded-b-lg"
@@ -102,7 +102,7 @@ const CustomSlider: React.FC<CustomSliderProps> = ({ site }) => {
                     />
                 )}
             </div>
-            <div className='w-full h-[750px] md:h-[450px] lg:h-[450px] xl:h-[450px]'>
+            <div className='w-full h-[550px] md:h-[450px] lg:h-[450px] xl:h-[450px]'>
                 {site === "opandco" && (
                     <img
                         className="object-cover object-top h-full w-full rounded-b-lg"

@@ -20,7 +20,7 @@ const Portfolio = () => {
                         <div className='h-3 w-3 bg-gray-400 rounded-full'></div>
                         <div className='h-3 w-3 bg-gray-400 rounded-full'></div>
                     </header>
-                    <main className='slider-container w-full h-[750px] md:h-[450px] lg:h-[450px] xl:h-[450px]'>
+                    <main className='slider-container w-full h-[550px] md:h-[450px] lg:h-[450px] xl:h-[450px]'>
                         <CustomSlider site="opandco"/>
                     </main>
                 </article>
@@ -39,7 +39,7 @@ const Portfolio = () => {
                         <div className='h-3 w-3 bg-gray-400 rounded-full'></div>
                         <div className='h-3 w-3 bg-gray-400 rounded-full'></div>
                     </header>
-                    <main className='slider-container w-full h-[750px] md:h-[450px] lg:h-[450px] xl:h-[450px]'>
+                    <main className='slider-container w-full h-[550px] md:h-[450px] lg:h-[450px] xl:h-[450px]'>
                         <CustomSlider site="addm"/>
                     </main>
                 </article>
@@ -58,7 +58,7 @@ const Portfolio = () => {
                         <div className='h-3 w-3 bg-gray-400 rounded-full'></div>
                         <div className='h-3 w-3 bg-gray-400 rounded-full'></div>
                     </header>
-                    <main className='slider-container w-full h-[750px] md:h-[450px] lg:h-[450px] xl:h-[450px]'>
+                    <main className='slider-container w-full h-[550px] md:h-[450px] lg:h-[450px] xl:h-[450px]'>
                         <CustomSlider site="beerhunter"/>
                     </main>
                 </article>
