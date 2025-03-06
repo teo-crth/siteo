@@ -22,27 +22,31 @@ interface AppProviderProps {
 export const AppProvider = ({ children }: AppProviderProps) => {
 
   // Menu Open State
-  const [menuOpen, setMenuOpen] = useState<boolean>(() => {
-    const savedMenuState = localStorage.getItem('menuOpen');
-    return savedMenuState ? JSON.parse(savedMenuState) : false;
-  });
+  const [menuOpen, setMenuOpen] = useState<boolean>(false);
 
   // DARK MODE State
-  const [isDarkMode, setIsDarkMode] = useState<boolean>(() => {
-    const savedMode = localStorage.getItem('darkMode');
-    return savedMode ? JSON.parse(savedMode) : false;
-  });
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
 
   useEffect(() => {
-    localStorage.setItem('darkMode', JSON.stringify(isDarkMode));
+    if (typeof window !== "undefined") {
+      const savedMenuState = localStorage.getItem("menuOpen");
+      const savedMode = localStorage.getItem("darkMode");
+
+      if (savedMenuState !== null) setMenuOpen(JSON.parse(savedMenuState));
+      if (savedMode !== null) setIsDarkMode(JSON.parse(savedMode));
+    }
   }, []);
 
   useEffect(() => {
-    localStorage.setItem('darkMode', JSON.stringify(isDarkMode));
+    if (typeof window !== "undefined") {
+      localStorage.setItem("darkMode", JSON.stringify(isDarkMode));
+    }
   }, [isDarkMode]);
 
   useEffect(() => {
-    localStorage.setItem('menuOpen', JSON.stringify(menuOpen));
+    if (typeof window !== "undefined") {
+      localStorage.setItem("menuOpen", JSON.stringify(menuOpen));
+    }
   }, [menuOpen]);
 
   const toggleTheme = () => {
