@@ -32,7 +32,6 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <Head>
-        <meta name="google-site-verification" content="RIQOS-Fty0kis8RDCJMLYiQUwHzEQhddqkZYEVPjBmY" />
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <script
