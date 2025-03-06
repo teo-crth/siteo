@@ -30,7 +30,7 @@ const footer = () => {
                         <Link href="/mentions-legales" className="text-md cursor-pointer" aria-label="Navigation vers la page des mentions légales">
                             Mentions légales & CGV
                         </Link>
-                        <Link href="/sitemap" className="text-md cursor-pointer" aria-label="Navigation vers le plan du site">
+                        <Link href="/sitemap.xml" className="text-md cursor-pointer" aria-label="Navigation vers le plan du site">
                             Plan du site
                         </Link>
                     </div>
