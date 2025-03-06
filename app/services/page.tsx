@@ -15,7 +15,7 @@ const Services = () => {
                 <h2 className="font-title font-bold text-center text-4xl w-full p-10">Création de site web</h2>
                 <h3 className="font-title font-bold text-center text-2xl md:text-4xl w-full p-10">Choix du format le plus adapté à vos problèmatiques</h3>
                 <section className="sites flex flex-wrap justify-center items-start gap-3">
-                    <article className='section-surmesure flex justify-center items-start p-5 w-[97%] md:w-[70%] lg:w-[32%] xl:w-[32%]'>
+                    <article className='section-surmesure flex justify-center items-start w-[97%] md:w-[70%] lg:w-[32%] xl:w-[32%]'>
                         <div className="card bg-white/15 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-lg border rounded-xl border-white/18 flex flex-col justify-start items-center gap-5 min-h-[300px]">
                             <header className='header-card bg-secondary text-light rounded-t-xl p-3 shadow-lg min-h-[100px] w-full flex flex-col items-center justify-center relative'>
                                 <h3 className='font-title font-bold text-center text-2xl md:text-4xl'>Site internet sur-mesure</h3>
@@ -36,7 +36,7 @@ const Services = () => {
                             </Link>
                         </div>
                     </article>
-                    <article className='section-wordpress flex justify-center items-start p-5 w-[97%] md:w-[70%] lg:w-[32%] xl:w-[32%]'>
+                    <article className='section-wordpress flex justify-center items-start w-[97%] md:w-[70%] lg:w-[32%] xl:w-[32%]'>
                         <div className="card bg-white/15 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-lg border rounded-xl border-white/18 flex flex-col justify-start items-center gap-5 min-h-[300px]">
                             <header className='header-card bg-secondary text-light rounded-t-xl p-3 shadow-lg min-h-[100px] w-full flex flex-col items-center justify-center relative'>
                                 <h3 className='font-title font-bold text-center text-2xl md:text-4xl'>Site internet Wordpress</h3>
@@ -57,7 +57,7 @@ const Services = () => {
                             </Link>
                         </div>
                     </article>
-                    <article className='section-vitrine flex justify-center items-start p-5 w-[97%] md:w-[70%] lg:w-[32%] xl:w-[32%]'>
+                    <article className='section-vitrine flex justify-center items-start w-[97%] md:w-[70%] lg:w-[32%] xl:w-[32%]'>
                         <div className="card bg-white/15 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-lg border rounded-xl border-white/18 flex flex-col justify-start items-center gap-5 min-h-[300px]">
                             <header className='header-card bg-secondary text-light rounded-t-xl p-3 shadow-lg min-h-[100px] w-full flex flex-col items-center justify-center relative'>
                                 <h3 className='font-title font-bold text-center text-2xl md:text-4xl'>Site vitrine</h3>
@@ -80,7 +80,7 @@ const Services = () => {
                 </section>
                 <h2 className="font-title font-bold text-center text-xl md:text-4xl w-full p-10">Services complémentaires pour un site existant</h2>
                 <section className="site-already-exist flex flex-wrap justify-center items-start gap-3">
-                    <article className='section-modification flex justify-center items-center p-5 w-[97%] md:w-[70%] lg:w-[48%] xl:w-[48%]'>
+                    <article className='section-modification flex justify-center items-center w-[97%] md:w-[70%] lg:w-[48%] xl:w-[48%]'>
                         <div className="card bg-white/25 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-lg border rounded-xl min-h-[320px] border-white/18 flex flex-col justify-start items-center gap-4">
                             <header className='header-card bg-secondary text-light rounded-t-xl p-3 shadow-lg min-h-[100px] w-full flex flex-col items-center justify-center relative'>
                                 <h3 className='font-title font-bold text-center text-2xl md:text-4xl'>Modification de site internet</h3>
@@ -88,8 +88,8 @@ const Services = () => {
                             <ul className='text-lg font-title font-bold tracking-wider text-light text-center flex justify-center items-center flex-wrap gap-1'>
                                 <li className='bg-secondary rounded-full px-3 py-0.5'>Modification de textes</li>
                                 <li className='bg-secondary rounded-full px-3 py-0.5'>Refonte visuelle</li>
-                                <li className='bg-secondary rounded-full px-3 py-0.5'>Ajout ou suppression de page</li>
-                                <li className='bg-secondary rounded-full px-3 py-0.5'>Amélioration du référencement gratuit</li>
+                                <li className='bg-secondary rounded-full px-3 py-0.5'>Ajout de page</li>
+                                <li className='bg-secondary rounded-full px-3 py-0.5'>Amélioration du SEO</li>
                             </ul>
                             <details>
                                 <summary className='marker:text-secondary font-title text-lg cursor-pointer p-5'>Cliquez pour afficher le texte</summary>
@@ -97,15 +97,15 @@ const Services = () => {
                             </details>
                         </div>
                     </article>
-                    <article className='section-seo flex justify-center items-center p-5 w-[97%] md:w-[70%] lg:w-[48%] xl:w-[48%]'>
+                    <article className='section-seo flex justify-center items-center w-[97%] md:w-[70%] lg:w-[48%] xl:w-[48%]'>
                         <div className="card bg-white/25 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-lg border rounded-xl border-white/18 flex flex-col justify-start items-center gap-4 min-h-[280px]">
                             <header className='header-card bg-secondary text-light rounded-t-xl p-3 shadow-lg min-h-[100px] w-full flex flex-col items-center justify-center relative'>
                                 <h3 className='font-title font-bold text-center text-2xl md:text-4xl'>Référencement naturel (SEO)</h3>
                             </header>
                             <ul className='text-lg font-title font-bold tracking-wider text-light text-center flex justify-center items-center flex-wrap gap-1'>
-                                <li className='bg-secondary rounded-full px-3 py-0.5'>Champ sémantique adapté à votre secteur</li>
+                                <li className='bg-secondary rounded-full px-3 py-0.5'>Champ sémantique</li>
                                 <li className='bg-secondary rounded-full px-3 py-0.5'>Maillage interne</li>
-                                <li className='bg-secondary rounded-full px-3 py-0.5'>Amélioration du classement sur Google</li>
+                                <li className='bg-secondary rounded-full px-3 py-0.5'>Meilleur classement Google</li>
                                 <li className='bg-secondary rounded-full px-3 py-0.5'>Optimisation des contenus</li>
                             </ul>
                             <details>
@@ -120,17 +120,16 @@ const Services = () => {
                 </section>
                 <section className="container-sav">
                     <h2 className="font-title font-bold text-center text-4xl w-full p-10">Service après vente</h2>
-                    <article className='section-maintenance flex justify-center items-center p-5 w-full'>
+                    <article className='section-maintenance flex justify-center items-center w-full'>
                         <div className="card bg-white/25 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-lg border rounded-xl border-white/18 w-[97%] md:w-[70%] lg:w-[50%] xl:w-[50%] flex flex-col justify-center items-center gap-2">
                             <header className='header-card bg-secondary text-light rounded-t-xl p-3 shadow-lg min-h-[100px] w-full flex flex-col items-center justify-center relative'>
                                 <h3 className='font-title font-bold text-center text-2xl md:text-4xl'>Maintenance de site internet</h3>
                             </header>
                             <ul className='text-lg font-title font-bold tracking-wider text-light text-center flex justify-center items-center flex-wrap gap-1'>
                                 <li className='bg-secondary rounded-full px-3 py-0.5'>Support technique</li>
-                                <li className='bg-secondary rounded-full px-3 py-0.5'>Mises à jour régulières</li>
-                                <li className='bg-secondary rounded-full px-3 py-0.5'>Amélioration de la performance</li>
+                                <li className='bg-secondary rounded-full px-3 py-0.5'>Mises à jour</li>
                                 <li className='bg-secondary rounded-full px-3 py-0.5'>Modification de textes</li>
-                                <li className='bg-secondary rounded-full px-3 py-0.5'>Corrections orthographiques</li>
+                                <li className='bg-secondary rounded-full px-3 py-0.5'>Corrections</li>
                             </ul>
                             <details>
                                 <summary className='marker:text-secondary font-title text-lg cursor-pointer p-5'>Cliquez pour afficher le texte</summary>
