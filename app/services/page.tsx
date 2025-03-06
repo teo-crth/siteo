@@ -23,7 +23,7 @@ const Services = () => {
                             <ul className='text-lg font-title font-bold tracking-wider text-light text-center flex justify-center items-center flex-wrap gap-1'>
                                 <li className='bg-secondary rounded-full px-3 py-0.5'>Adaptabilité</li>
                                 <li className='bg-secondary rounded-full px-3 py-0.5'>Performance</li>
-                                <li className='bg-secondary rounded-full px-3 py-0.5'>Fonctionnalités personnalisées</li>
+                                <li className='bg-secondary rounded-full px-3 py-0.5'>Fonctionnalités adaptées</li>
                                 <li className='bg-secondary rounded-full px-3 py-0.5'>Optimisation SEO</li>
                             </ul>
                             <details>

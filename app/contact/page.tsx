@@ -38,7 +38,7 @@ const Contact = () => {
                         id="email"
                         type="email"
                         name="email"
-                        className='pl-2 border border-dark text-dark placeholder-dark text-xl rounded-md'
+                        className='pl-2 border border-dark text-dark placeholder-dark text-xl rounded-md w-full'
                         required
                     />
                     <ValidationError prefix="Email" field="email" errors={state.errors} />
