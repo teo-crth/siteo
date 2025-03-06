@@ -34,7 +34,7 @@ const Devis = () => {
             </Head>
             <main>
                 <div className='container-devisPage p-8 pb-20 sm:p-15 font-title flex flex-col items-center justify-start w-full gap-3'>
-                    <h1 className='font-bold text-center md:text-6xl lg:text-6xl xl:text-6xl text-4xl text-secondary'>Demander un devis pour un site web professionnel</h1>
+                    <h1 className='font-bold text-center md:text-6xl lg:text-6xl xl:text-6xl text-4xl text-secondary text-shadow-white'>Demander un devis pour un site web professionnel</h1>
                     <h3 className='font-bold text-center text-xl text-gray-400'>Site sur-mesure ou Wordpress</h3>
                     <h2 className='font-bold text-center text-xl text-amber-500'>Discutons de votre projet de création de site internet par un développeur !</h2>
                     <FormDevis devisType='Devis site-web' />

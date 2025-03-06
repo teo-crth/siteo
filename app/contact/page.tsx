@@ -26,7 +26,7 @@ const Contact = () => {
 
     return (
         <div className='container-contactPage p-5 flex justify-center items-center flex-col gap-5 font-title'>
-            <h1 className='font-bold text-center md:text-6xl lg:text-6xl xl:text-6xl text-4xl text-secondary'>Contact</h1>
+            <h1 className='font-bold text-center md:text-6xl lg:text-6xl xl:text-6xl text-4xl text-secondary text-shadow-white'>Contact</h1>
             <form onSubmit={handleSubmit} className='container-form w-full md:w-1/2 lg:w-1/3 min-h-100 flex flex-col items-start justify-between text-center gap-2 shadow-lg bg-indigo-200 text-light rounded-xl'>
                 <header className='w-full bg-secondary flex items-center justify-center p-2 rounded-t-xl shadow-2xl h-[70px]'>
                     <h3 className='font-text font-bold text-xl text-center w-full'>FORMULAIRE DE CONTACT</h3>

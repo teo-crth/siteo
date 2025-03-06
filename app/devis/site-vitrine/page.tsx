@@ -35,7 +35,7 @@ const DevisPage = () => {
             </Head>
             <main>
                 <div className='container-devisPage font-title p-8 pb-20 sm:p-15 flex flex-col items-center justify-start w-full gap-3'>
-                    <h1 className=' font-bold text-center md:text-6xl lg:text-6xl xl:text-6xl text-4xl'>Demander un devis pour un site vitrine professionnel</h1>
+                    <h1 className=' font-bold text-center md:text-6xl lg:text-6xl xl:text-6xl text-4xl text-secondary text-shadow-white'>Demander un devis pour un site vitrine professionnel</h1>
                     <p  className=' font-bold text-center text-2xl'>(1 page)</p>
                     <h3 className='font-bold text-center text-xl text-gray-400'>Site sur-mesure ou Wordpress</h3>
                     <h2 className='font-bold text-center text-xl text-amber-500'>Discutons de votre projet de création d'une landing page par un développeur !</h2>

@@ -16,14 +16,14 @@ const Button: React.FC<ButtonProps> = ({text, onClick, type, className, router})
 
     if (router) {
         return (
-            <button onClick={() => routerPush.push(router)} type={type} className={className + ' px-4 py-2 shadow-lg hover:bg-primary-dark font-text font-bold text-light hover:text-light light-mode:hover:text-light rounded-full cursor-pointer'}>
+            <button onClick={() => routerPush.push(router)} type={type} className={className + ' px-4 py-2 shadow-lg hover:bg-primary-dark font-title font-bold text-light hover:text-light light-mode:hover:text-light rounded-full cursor-pointer'}>
                 {text}            
             </button>
         );
     }
 
     return (
-        <button onClick={onClick} type={type} className={className + ' px-4 py-2 shadow-lg hover:bg-primary-dark font-text font-bold text-light hover:text-light light-mode:hover:text-light rounded-full cursor-pointer'}>
+        <button onClick={onClick} type={type} className={className + ' px-4 py-2 shadow-lg hover:bg-primary-dark font-title font-bold text-light hover:text-light light-mode:hover:text-light rounded-full cursor-pointer'}>
             {text}            
         </button>
     );

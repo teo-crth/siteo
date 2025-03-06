@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 const Services = () => {
     return (
         <div className='container-servicesPage flex flex-col items-center justify-start w-full p-8 pb-20 gap-5 sm:p-15'>
-            <h1 className='font-title font-bold text-center text-4xl md:text-6xl lg:text-6xl xl:text-6xl text-secondary'>Prestations d'un développeur professionnel</h1>
+            <h1 className='font-title font-bold text-center text-4xl md:text-6xl lg:text-6xl xl:text-6xl text-secondary text-shadow-white'>Prestations d'un développeur professionnel</h1>
             <div className="container-sections flex flex-col gap-5 w-full p-5">
                 <h2 className="font-title font-bold text-center text-4xl w-full p-10">Création de site web & choix du format le plus adapté à vos problèmatiques</h2>
                 <section className="sites flex flex-wrap justify-center items-start gap-3">
@@ -124,7 +124,6 @@ const Services = () => {
                             <header className='header-card bg-secondary text-light rounded-t-xl p-3 shadow-lg h-[100px] w-full flex flex-col items-center justify-center relative'>
                                 <h3 className='font-title font-bold text-center text-4xl'>Maintenance de site internet</h3>
                             </header>
-                            <h3 className='font-title font-bold text-center text-4xl'></h3>
                             <ul className='text-lg font-title font-bold tracking-wider text-light text-justify flex justify-center items-center flex-wrap gap-1'>
                                 <li className='bg-secondary rounded-full px-3 py-0.5'>Support technique</li>
                                 <li className='bg-secondary rounded-full px-3 py-0.5'>Mises à jour régulières</li>

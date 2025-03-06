@@ -25,7 +25,7 @@ const burgerMenu = () => {
                     <FontAwesomeIcon icon={faXmark} className='text-2xl'/>
                 </div>
             </header>
-            <h2 className='text-center font-title font-bold text-2xl text-secondary'>Menu</h2>
+            <h2 className='text-center font-title font-bold text-2xl text-secondary text-shadow-white'>Menu</h2>
             <nav className='font-title font-bold tracking-wider flex flex-col text-left text-xl gap-7 p-15 w-full'>
                 <Link href="/" className="cursor-pointer hover:text-secondary" aria-label="Navigation vers la page d'accueil" onClick={handleClickNav}>
                     Accueil

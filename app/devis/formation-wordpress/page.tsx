@@ -42,7 +42,7 @@ const FormationWordpress = () => {
             </Head>
             <main>
                 <div className='container-devisPage p-8 pb-20 gap-2 sm:p-15 font-title min-h-[calc(100vh-159px)] flex flex-col justify-center items-center w-full'>
-                    <h1 className='font-bold text-center md:text-6xl lg:text-6xl xl:text-6xl text-4xl text-secondary'>Demander un devis pour une formation Wordpress</h1>
+                    <h1 className='font-bold text-center md:text-6xl lg:text-6xl xl:text-6xl text-4xl text-secondary text-shadow-white'>Demander un devis pour une formation Wordpress</h1>
                     <h3 className='font-bold text-center text-xl text-gray-600'>Contenu de la formation adaptée à vos objectifs</h3>
                     <h2 className='font-bold text-center text-xl text-amber-500'>Discutons de vos besoins de formation en développement !</h2>
                     <FormDevis devisType='Devis Formation Wordpress' />
