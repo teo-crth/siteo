@@ -21,7 +21,7 @@ export default function Home() {
         </div>
         <div className="container-button w-full flex flex-wrap gap-5 justify-center z-2">
           <Link href="/devis/site-web" className="cursor-pointer z-2" aria-label="Navigation vers la page de demande de devis">
-            <Button text="DEMANDER UN DEVIS" type="button" className="bg-secondary  px-10 py-3 text-xl text-light z-2 hover:bg-light hover:border-secondary hover:border-5 hover:text-secondary" />
+            <Button text="DEMANDER UN DEVIS" type="button" className="bg-secondary px-10 py-3 text-xl text-light z-2 hover:bg-light hover:text-secondary border-4 border-transparent hover:border-secondary hover:border-solid box-border" />
           </Link>
         </div>
       </section>
@@ -39,18 +39,18 @@ export default function Home() {
       </section>
       <Separator type="2" />
       <section className="container-quiSuisJe flex flex-col items-center justify-center gap-5 pb-20 px-5">
-        <h2 className="font-bold font-title md:text-6xl lg:text-6xl xl:text-6xl text-4xl text-secondary z-2 text-center text-shadow-white">Pourquoi faire appel à moi ?</h2>
+        <h2 className="font-bold font-title md:text-6xl lg:text-6xl xl:text-6xl text-4xl text-secondary z-2 text-center text-shadow-white">Mes services</h2>
         <div className="container-illustration w-[50%] md:w-[350%] lg:w-[25%] xl:w-[15%] p-5 z-2 bg-light/35 rounded-full">
           <img className="w-full h-full object-cover" src="/images/illustration-4.png" alt="illustration colorée d'une personne en position de super-héro devant une page web" />
         </div>
         <div className="container-cards-services w-full flex flex-wrap justify-center items-center gap-3 z-2 mt-7">
-          <Link href="/tarifs" className="cursor-pointer z-2 w-[95%] md:w-[30%]" aria-label="Navigation vers la page des tarifs">
+          <Link href="/tarifs" className="cursor-pointer z-2 w-[95%] md:w-[32%] lg:w-[25%] xl:w-[20%]" aria-label="Navigation vers la page des tarifs">
             <article className='cards-services flex justify-center items-center'>
               <div className="card bg-white/25 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-lg border rounded-xl border-white/18 w-full flex flex-col justify-center items-center gap-2">
                 <header className='header-card bg-secondary text-light rounded-t-xl p-3 shadow-lg h-[100px] w-full flex flex-col items-center justify-center relative'>
                   <h3 className='font-title font-bold text-center text-2xl md:text-4xl'>Création de site</h3>
                 </header>
-                <ul className='text-lg font-title font-bold tracking-wider text-light text-center flex justify-center items-center p-5 flex-wrap gap-1'>
+                <ul className='text-lg font-title font-bold tracking-wider text-light text-center flex justify-center items-start p-5 flex-wrap gap-1'>
                   <li className='bg-secondary rounded-full px-3 py-0.5'>Charte graphique</li>
                   <li className='bg-secondary rounded-full px-3 py-0.5'>Performance</li>
                   <li className='bg-secondary rounded-full px-3 py-0.5'>Responsive</li>
@@ -59,11 +59,11 @@ export default function Home() {
               </div>
             </article>
           </Link>
-          <Link href="/tarifs" className="cursor-pointer z-2 w-[95%] md:w-[30%]" aria-label="Navigation vers la page des tarifs">
+          <Link href="/tarifs" className="cursor-pointer z-2 w-[95%] md:w-[32%] lg:w-[25%] xl:w-[20%]" aria-label="Navigation vers la page des tarifs">
             <article className='cards-services flex justify-center items-center'>
               <div className="card bg-white/25 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-lg border rounded-xl border-white/18 w-full flex flex-col justify-center items-center gap-2">
                 <header className='header-card bg-secondary text-light rounded-t-xl p-3 shadow-lg h-[100px] w-full flex flex-col items-center justify-center relative'>
-                  <h3 className='font-title font-bold text-center text-2xl md:text-4xl'>Modification de site internet</h3>
+                  <h3 className='font-title font-bold text-center text-2xl md:text-4xl'>Modification de site</h3>
                 </header>
                 <ul className='text-lg font-title font-bold tracking-wider text-light text-center flex justify-center items-center flex-wrap p-5 gap-1'>
                   <li className='bg-secondary rounded-full px-3 py-0.5'>Refonte graphique</li>
@@ -74,7 +74,7 @@ export default function Home() {
               </div>
             </article>
           </Link>
-          <Link href="/tarifs" className="cursor-pointer z-2 w-[95%] md:w-[30%]" aria-label="Navigation vers la page des tarifs">
+          <Link href="/tarifs" className="cursor-pointer z-2 w-[95%] md:w-[32%] lg:w-[25%] xl:w-[20%]" aria-label="Navigation vers la page des tarifs">
             <article className='cards-services flex justify-center items-center'>
               <div className="card bg-white/25 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-lg border rounded-xl border-white/18 w-full flex flex-col justify-center items-center gap-2">
                 <header className='header-card bg-secondary text-light rounded-t-xl p-3 shadow-lg h-[100px] w-full flex flex-col items-center justify-center relative'>

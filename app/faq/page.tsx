@@ -50,9 +50,10 @@ const Faq = () => {
 
   return (
     <div className='container-faqPage flex flex-col items-center justify-start w-full p-8 pb-20 gap-5 sm:p-15'>
-      <h1 className='font-title font-bold text-center text-4xl md:text-6xl lg:text-6xl xl:text-6xl text-secondary text-shadow-white'>FAQ - Toutes vos questions sur la création d'un site par un freelance</h1>
-      <section className='container-questions-sites font-title'>
-        <h2 className="font-title font-bold text-center text-4xl w-full p-10">Quel type de site privilégier ?</h2>
+      <h1 className='font-title font-bold text-center text-4xl md:text-6xl lg:text-6xl xl:text-6xl text-secondary text-shadow-white'>Foire aux questions</h1>
+      <h1 className='font-title font-bold text-center text-2xl md:text-4xl lg:text-4xl xl:text-4xl'>Toutes vos questions sur la création d'un site par un freelance</h1>
+      <section className='container-questions-sites font-title w-full'>
+        <h2 className="font-title font-bold text-center text-2xl md:text-4xl w-full p-10 text-secondary text-shadow-white">Quel type de site privilégier ?</h2>
         <div className="question-1 mb-5">
           <details className='w-full border-b border-gray-300'>
             <summary className='font-bold text-2xl cursor-pointer p-1 marker:text-secondary' id='pourquoi-choisir-un-site-internet-sur-mesure'>Pourquoi choisir un site internet sur-mesure ?</summary>
@@ -86,8 +87,8 @@ const Faq = () => {
           </details>
         </div>
       </section>
-      <section className='container-questions-seo font-title'>
-        <h2 className="font-title font-bold text-center text-4xl w-full p-10">Comprendre le référencement naturel (SEO)</h2>
+      <section className='container-questions-seo font-title w-full'>
+        <h2 className="font-title font-bold text-center text-2xl md:text-4xl w-full p-10 text-secondary text-shadow-white">Comprendre le référencement naturel (SEO)</h2>
         <div className="question-4 mb-5">
           <details className='w-full border-b border-gray-300'>
             <summary className='font-bold text-2xl cursor-pointer p-1 marker:text-secondary' id='strategie-seo-cest-quoi'>Stratégie SEO (référencement naturel), c'est quoi exactement ?</summary>

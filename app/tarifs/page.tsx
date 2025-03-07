@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 const Tarifs = () => {
     return (
         <div className="container-tarifs flex flex-col items-center justify-start w-full p-8 pb-20 gap-5 sm:p-15">
-            <h1 className='text-center font-bold font-title md:text-6xl lg:text-6xl xl:text-6xl text-4xl text-secondary text-shadow-white'>Mes tarifs en tant que développeur freelance</h1>
+            <h1 className='text-center font-bold font-title text-6xl text-secondary text-shadow-white'>Mes tarifs</h1>
             <section className="container-tarifs-site flex flex-wrap items-start justify-center w-full gap-3">
                 <h2 className='font-title font-bold text-center text-4xl w-full mb-3'>Prix pour la création d'un site web</h2>
                 <article className="card-landing rounded-xl shadow-lg h-[600px] w-[350px] bg-indigo-200 relative">
@@ -125,7 +125,7 @@ const Tarifs = () => {
                 </article>
             </section>
             <section className="container-tarifs-divers flex flex-wrap items-start justify-center w-full gap-5">
-                <h2 className='font-title font-bold text-center text-4xl w-full p-10'>Prestations annexes</h2>
+                <h2 className='font-title font-bold text-center text-4xl w-full pt-10'>Prestations annexes</h2>
                 <article className='card-modification rounded-xl shadow-lg bg-indigo-200 w-[95%] md:w-[45%] lg:w-[45%] xl:w-[45%] min-h-[650px]'>
                     <header className='header-card bg-secondary text-light rounded-t-xl p-3 shadow-lg w-full h-[100px] flex flex-col items-center justify-center'>
                         <h3 className='font-title font-bold text-4xl text-center'>Modification site existant</h3>
@@ -231,7 +231,7 @@ const Tarifs = () => {
                     <h3 className='w-full text-center font-bold text-2xl p-5'>Pourquoi autant d'écart de prix pour un même type de site ?</h3>
                     <p className='text-justify text-xl p-4 w-full'>Certains clients ont des besoins spécifiques en terme de fonctionnalités ou de graphisme. Ces spécificités peuvent doubler le temps de travail pour réaliser leur site. C'est pourquoi les fourchettes de prix peuvent être importantes. </p>
                     <p className='text-justify text-xl p-4 w-full'>C'est pour cela qu'il est important d'être le plus précis possible dans la description de vos besoins afin que le devis puisse être ajusté au mieux. Un rendez-vous téléphonique gratuit est idéal pour un devis bien estimé !</p>
-                    <Link href='/devis' className='text-center font-bold text-xl p-5 text-blue-700 cursor-pointer' >
+                    <Link href='/devis' className='text-center font-bold text-xl p-5 text-blue-500 cursor-pointer' >
                         Si le devis nous convient, quelles sont les prochaines étapes ?
                     </Link>
 
