@@ -99,31 +99,73 @@ const Faq = () => {
         <div className="question mb-5">
           <details className='w-full border-b border-gray-300'>
             <summary className='font-bold text-2xl cursor-pointer p-1 marker:text-secondary' id='technologies'>Quelles technologies maîtrisez-vous ?</summary>
-            <p className='text-xl text-justify mb-2'></p>
-          </details>
-        </div>
-        <div className="question mb-5">
-          <details className='w-full border-b border-gray-300'>
-            <summary className='font-bold text-2xl cursor-pointer p-1 marker:text-secondary' id='processus-projet'>Comment se déroule un projet avec un développeur freelance ?</summary>
-            <p className='text-xl text-justify mb-2'></p>
+            <ul className='font-bold text-xl text-justify px-7 md:px-20 mb-2'>
+              <li className='list-disc list-item'>Wordpress / Prestashop / Drupal</li>
+              <li className='list-disc list-item'>Javascript & Framework (React, Node, Vue.js)</li>
+              <li className='list-disc list-item'>Typescript</li>
+              <li className='list-disc list-item'>HTML / CSS</li>
+              <li className='list-disc list-item'>SQL</li>
+              <li className='list-disc list-item'>Hébergement & Nom de domaine</li>
+            </ul>
           </details>
         </div>
         <div className="question mb-5">
           <details className='w-full border-b border-gray-300'>
             <summary className='font-bold text-2xl cursor-pointer p-1 marker:text-secondary' id='freelance-ou-agence'>Pourquoi choisir un développeur freelance plutôt qu’une agence ?</summary>
-            <p className='text-xl text-justify mb-2'></p>
+            <p className='text-xl text-justify mb-2'>Choisir un développeur freelance plutôt qu’une agence de développement présente plusieurs avantages, selon les besoins spécifiques de votre projet. Voici quelques raisons qui peuvent vous convaincre d'opter pour un développeur freelance :</p>
+            <ul className='text-xl text-justify px-7 md:px-20 mb-2'>
+              <li className='list-decimal list-item font-bold'>Flexibilité et personnalisation</li>
+              <p  className='pb-2'>Un développeur freelance offre une flexibilité qu'une agence ne peut pas toujours égaler. Étant une seule personne, le freelance peut rapidement s’adapter à vos demandes et apporter des ajustements immédiats. De plus, vous travaillez directement avec la personne qui développe votre projet, ce qui permet une approche plus personnalisée. Le freelance peut vraiment prendre le temps de comprendre vos objectifs et ajuster son travail en conséquence, sans passer par plusieurs intermédiaires.</p>
+            
+              <li className='list-decimal list-item font-bold'>Coût généralement plus bas</li>
+              <p  className='pb-2'>Les agences, en raison de leurs structures et de leurs coûts fixes (salaires d’employés, frais généraux, etc.), sont souvent plus coûteuses. En revanche, un développeur freelance a moins de charges fixes, ce qui lui permet de proposer des tarifs plus compétitifs. Vous avez donc plus de chance de trouver une offre adaptée à votre budget tout en bénéficiant d'une qualité professionnelle.</p>
+
+              <li className='list-decimal list-item font-bold'>Communication directe</li>
+              <p  className='pb-2'>Lorsque vous travaillez avec une agence, la communication passe souvent par un chef de projet ou d’autres intermédiaires. Cela peut entraîner des retards, des malentendus et une perte d'informations. Avec un développeur freelance, la communication est directe et transparente. Vous pouvez échanger rapidement, poser des questions et obtenir des réponses instantanées, ce qui accélère la prise de décision et rend le projet plus fluide.</p>
+
+              <li className='list-decimal list-item font-bold'>Expertise spécialisée</li>
+              <p  className='pb-2'>Un freelance se spécialise généralement dans une ou plusieurs technologies précises. S'il a l'expertise nécessaire pour votre projet, vous aurez un travail très pointu et de qualité. Contrairement à une agence qui peut avoir une équipe avec des compétences générales, un freelance peut vous offrir une expertise ciblée qui répond exactement à vos besoins techniques.</p>
+
+              <li className='list-decimal list-item font-bold'>Suivi personnalisé</li>
+              <p  className='pb-2'>Vous bénéficiez d'un suivi plus attentif. Puisque vous êtes son seul client (ou un client prioritaire), il mettra un point d’honneur à respecter vos exigences et à livrer un travail de qualité. Vous aurez également un meilleur contrôle sur les délais et les révisions, sans que cela ne passe par plusieurs couches de validation.</p>
+
+              <li className='list-decimal list-item font-bold'>Rapidité et réactivité</li>
+              <p  className='pb-2'>Un développeur freelance est généralement plus réactif et peut répondre plus rapidement aux modifications demandées. Les délais sont souvent plus courts, et les changements sont plus faciles à intégrer dans le projet. Travailler avec un freelance peut être un bon choix si vous avez des délais serrés ou des besoins de dernière minute.</p>
+
+              <li className='list-decimal list-item font-bold'> Moins de bureaucratie</li>
+              <p  className='pb-2'>Avec un freelance, la gestion administrative est plus simple. Vous n'avez pas à vous soucier des contrats ou des accords complexes comme cela peut être le cas avec une agence. Les échanges sont plus fluides, et le processus de collaboration est plus informel, ce qui peut rendre la gestion de projet plus rapide et moins lourde.</p>
+            </ul>
           </details>
         </div>
         <div className="question mb-5">
           <details className='w-full border-b border-gray-300'>
             <summary className='font-bold text-2xl cursor-pointer p-1 marker:text-secondary' id='temps-creation-site'>Combien de temps prend la création d'un site web ou d'une application ?</summary>
-            <p className='text-xl text-justify mb-2'></p>
+            <p className='text-xl text-justify mb-2'>La durée nécessaire pour créer un site web ou une application dépend de plusieurs facteurs, notamment la complexité du projet, les fonctionnalités spécifiques, le type de plateforme (site web ou application mobile), et l'implication des parties prenantes. Voici un aperçu des délais approximatifs pour différents types de projets :</p>
+            <ul className='text-xl text-justify px-7 md:px-20 mb-2'>
+              <li className='list-decimal list-item font-bold'>Création d’un site web simple (1 à 3 pages)</li>
+              <p  className='pb-2'><strong>Durée estimée :</strong> 1 à 3 semaines.</p>
+
+              <li className='list-decimal list-item font-bold'>Site web d’entreprise standard (entre 3 à 15 pages)</li>
+              <p  className='pb-2'><strong>Durée estimée :</strong> 3 à 8 semaines.</p>
+
+              <li className='list-decimal list-item font-bold'>Site web e-commerce</li>
+              <p  className='pb-2'><strong>Durée estimée :</strong> 2 à 4 mois.</p>
+
+              <li className='list-decimal list-item font-bold'>Application mobile simple (iOS/Android)</li>
+              <p  className='pb-2'><strong>Durée estimée :</strong> 2 à 4 mois.</p>
+
+              <li className='list-decimal list-item font-bold'> Application mobile complexe (iOS/Android)</li>
+              <p  className='pb-2'><strong>Durée estimée :</strong> 4 à 9 mois.</p>
+
+              <li className='list-decimal list-item font-bold'>Site web ou application sur mesure (fonctionnalités avancées)</li>
+              <p  className='pb-2'><strong>Durée estimée :</strong> 3 mois à 1 an.</p>
+            </ul>
           </details>
         </div>
         <div className="question mb-5">
           <details className='w-full border-b border-gray-300'>
             <summary className='font-bold text-2xl cursor-pointer p-1 marker:text-secondary' id='paiement'>Quel est le processus de paiement pour un développeur freelance ?</summary>
-            <p className='text-xl text-justify mb-2'></p>
+            <p className='text-xl text-justify mb-2'>Un accompte de 30% doit être versé par virement à la signature du contrat, afin de limiter les risques des mauvais payeurs. Le paiement restant dûe sera demandé à la livraison du site internet</p>
           </details>
         </div>
       </section>
@@ -131,8 +173,22 @@ const Faq = () => {
         <h2 className="font-title font-bold text-center text-2xl md:text-4xl w-full p-10 text-secondary text-shadow-white">Qui sont mes clients ?</h2>
         <div className="question mb-5">
           <details className='w-full border-b border-gray-300'>
+            <summary className='font-bold text-2xl cursor-pointer p-1 marker:text-secondary' id='creation-site-associations'>Création de site pour les PME</summary>
+            <p className='text-xl text-justify mb-2'>Pour une PME (Petite et Moyenne Entreprise), avoir un site web professionnel est désormais un impératif pour se développer et se démarquer dans un marché de plus en plus compétitif. La création de site pour les PME par un développeur spécialisé permet de doter votre entreprise d'un outil puissant pour améliorer votre visibilité en ligne, générer de nouveaux prospects et renforcer votre crédibilité. Un site bien conçu est bien plus qu’une simple vitrine virtuelle, c’est un outil stratégique pour dynamiser la croissance de votre PME.</p>
+          </details>
+        </div>
+        <div className="question mb-5">
+          <details className='w-full border-b border-gray-300'>
             <summary className='font-bold text-2xl cursor-pointer p-1 marker:text-secondary' id='creation-site-associations'>Création de site pour les associations</summary>
-            <p className='text-xl text-justify mb-2'></p>
+            <p className='text-xl text-justify mb-2'>La création de site pour les associations est un levier essentiel pour améliorer la visibilité en ligne, toucher un public plus large, et communiquer efficacement sur vos projets. Un site web bien conçu permet à votre association de gagner en crédibilité, de rendre ses actions visibles, et de faciliter les interactions avec les membres, les partenaires et les donateurs.La création de site pour les associations est un levier essentiel pour améliorer la visibilité en ligne, toucher un public plus large, et communiquer efficacement sur vos projets. Un site web bien conçu permet à votre association de gagner en crédibilité, de rendre ses actions visibles, et de faciliter les interactions avec les membres, les partenaires et les donateurs.</p>
+            <p className='text-xl text-justify mb-2'>Pour que votre association soit correctement représentée sur Internet, il est crucial de faire appel à un développeur spécialisé qui saura répondre à vos besoins spécifiques tout en optimisant votre site pour le référencement naturel (SEO). Un site web bien développé et bien référencé est un outil puissant pour attirer de nouveaux membres, dynamiser les campagnes de collecte de fonds, et informatiser les démarches administratives.</p>
+          </details>
+        </div>
+        <div className="question mb-5">
+        <details className='w-full border-b border-gray-300'>
+            <summary className='font-bold text-2xl cursor-pointer p-1 marker:text-secondary' id='creation-site-restaurateurs'>Création de site pour les restaurateurs</summary>
+            <p className='text-xl text-justify mb-2'>Un site personnalisé pour refléter l'image de votre restaurant. Chaque restaurant a sa propre ambiance, son propre style et ses spécialités culinaires. Un site web personnalisé vous permet de refléter cette identité et d’offrir une expérience unique à vos visiteurs. Grâce à l’expertise d’un développeur, vous pouvez créer un design de site en accord avec votre univers (gastronomique, moderne, traditionnel, etc.), tout en mettant en avant <strong>vos plats, vos menus et votre histoire</strong>. Un site bien conçu servira d'extension de votre restaurant, renforçant ainsi votre image de marque.</p>
+            <p className='text-xl text-justify mb-2'>De plus, un site bien référencé vous amènera une clientèle diversifiée.</p>
           </details>
         </div>
       </section>
@@ -191,7 +247,9 @@ const Faq = () => {
         <div className="question mb-5">
           <details className='w-full border-b border-gray-300'>
             <summary className='font-bold text-2xl cursor-pointer p-1 marker:text-secondary' id='responsive-explications'>Site web responsive : explication</summary>
-            <p className='text-xl text-justify mb-2'></p>
+            <p className='text-xl text-justify mb-2'>Un <strong>site internet responsive</strong> désigne un site web conçu pour offrir une expérience utilisateur optimale <strong>quel que soit le type d'appareil</strong> utilisé pour y accéder. En d'autres termes, un site responsive <strong>s'adapte automatiquement</strong> à la taille de l'écran, que ce soit un <strong>ordinateur de bureau</strong>, un <strong>smartphone</strong> ou une <strong>tablette</strong>. Ce design flexible permet de garantir que le contenu du site reste <strong>accessible et lisible</strong>, sans nécessiter de zoom ou de défilement horizontal excessif.</p>
+            <h3 className='font-bold text-xl'>Pourquoi est-ce important ?</h3>
+            <p className='text-xl text-justify mb-2'>Aujourd'hui, une grande majorité des utilisateurs accède à Internet via leurs smartphones et tablettes. Si un site web n'est pas responsive, il peut devenir <strong>difficile à naviguer</strong> sur ces appareils mobiles, ce qui peut entraîner une <strong>mauvaise expérience utilisateur</strong>. Un site non adapté pourrait décourager les visiteurs, ce qui peut <strong>impacter négativement</strong> votre taux de conversion ou votre image de marque. De plus Google repère les sites qui ne sont pas conçu pour les mobiles et les <strong>pénalisent</strong> en les référençants moins bien.</p>
           </details>
         </div>
       </section>
