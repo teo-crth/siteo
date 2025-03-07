@@ -19,8 +19,9 @@ export async function GET(): Promise<NextResponse> {
     { url: "/devis/site-ecommerce", lastModified: new Date().toISOString() },
     { url: "/devis/formation-wordpress", lastModified: new Date().toISOString() },
     { url: "/devis/modification-site", lastModified: new Date().toISOString() },
-    { url: "/blog", lastModified: new Date().toISOString() },
     { url: "/mentions-legales", lastModified: new Date().toISOString() },
+    { url: "/blog", lastModified: new Date().toISOString() },
+    { url: "/blog/pourquoi-chaque-pme-a-besoin-d-un-site-web-professionnel-en-2025", lastModified: new Date().toISOString() },
   ];
 
   const pages = [
