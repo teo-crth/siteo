@@ -15,7 +15,7 @@ const header = () => {
     }
 
     return (
-        <header className={ isDarkMode ? "flex justify-between items-center p-4 shadow-md shadow-gray-700 z-10" : "flex justify-between items-center p-4 shadow-md shadow-gray-100 z-10"}>
+        <header className={ isDarkMode ? "flex justify-between items-center p-3 shadow-md shadow-gray-700 z-10" : "flex justify-between items-center p-4 shadow-md shadow-gray-100 z-10"}>
             <div className="container-logo w-[150px] cursor-pointer">
                 <Link href="/" className="cursor-pointer" aria-label="Navigation vers la page d'accueil" >
                     { isDarkMode ?
@@ -26,7 +26,7 @@ const header = () => {
                 </Link>
             </div>
             <div className="container-nav flex items-center flex-nowrap gap-2">
-                <nav className="gap-6 font-title font-bold tracking-wider hidden lg:flex xl:flex text-xl">
+                <nav className="gap-6 font-title font-bold tracking-wider hidden lg:flex xl:flex text-lg">
                     <Link href="/" className="cursor-pointer hover:text-secondary" aria-label="Navigation vers la page d'accueil" >
                         Accueil
                     </Link>

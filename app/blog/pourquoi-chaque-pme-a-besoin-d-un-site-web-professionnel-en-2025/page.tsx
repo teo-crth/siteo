@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import type { Metadata } from "next";
+import Button from '../../components/ui/button';
 
 export const metadata: Metadata = {
     title: "Pourquoi chaque PME a besoin d'un site web professionnel en 2025 ?",
@@ -30,8 +31,8 @@ const Article = () => {
         },
         "headline": "Pourquoi chaque PME a besoin d'un site web professionnel en 2025 ?",
         "image": `${BASE_URL}/images/articles/pme-2025.webp`,
-        "datePublished": "2025-03-07",
-        "dateModified": "2025-03-07"
+        "datePublished": "2025-03-07T00:00:00+01:00",
+        "dateModified": "2025-03-07T00:00:00+01:00"
 
     }
 
@@ -136,7 +137,7 @@ const Article = () => {
                 </p>
                 <h3 className='font-bold text-left text-xl py-4'>Réduction des coûts marketing</h3>
                 <p className='text-justify text-lg'>
-                    Un site web bien conçu, combiné à une <strong>stratégie SEO</strong> efficace, permet de <strong>réduire les coûts marketing</strong>.
+                    Un site web bien conçu, combiné à une <a href='/faq/#strategie-seo-cest-quoi' className='text-blue-400' aria-label='Navigation vers la page de contact'>stratégie SEO</a> efficace, permet de <strong>réduire les coûts marketing</strong>.
                     En effet, le SEO attire un <strong>trafic organique qualifié</strong>, sans avoir besoin de payer pour des publicités payantes comme le Google Ads
                     ou les réseaux sociaux. De plus, un site web bien optimisé peut également améliorer l'efficacité de vos campagnes marketing.
                 </p>
@@ -149,6 +150,9 @@ const Article = () => {
                     votre site web professionnel ? <a href='/contact' className='text-blue-400' aria-label='Navigation vers la page de contact'>Contactez-moi</a> dès aujourd'hui pour obtenir un devis personnalisé et démarrer votre projet !
                 </p>
             </article>
+            <Link href="/devis/site-web" className='mb-15' aria-label='Navigation vers la page de demande de devis'>
+                <Button text="Demander un devis" type="button" className="bg-secondary px-5 py-1 text-xl text-light hover:bg-light hover:text-secondary border-4 border-transparent hover:border-secondary hover:border-solid box-border" />
+            </Link>
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}

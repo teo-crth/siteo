@@ -1,5 +1,6 @@
 "use client";
 import React from 'react';
+import Link from 'next/link';
 import CustomSlider from '../components/ui/CustomSlider';
 
 const Portfolio = () => {
@@ -8,10 +9,14 @@ const Portfolio = () => {
             <h1 className='text-center font-bold font-title md:text-6xl lg:text-6xl xl:text-6xl text-4xl text-secondary text-shadow-white m-7'>Projets réalisés</h1>
             <section className='container-opco w-full flex items-center justify-center flex-col gap-3'>
                 <div className="container-title flex items-center justify-center gap-3">
-                    <div className="container-logo w-12 h-12 rounded-full border-2 p-1 bg-light border-secondary flex items-center justify-center">
-                        <img className='w-full h-full object-contain' src="images/opandco/logo.png" alt="logo op and co" />
-                    </div>
-                    <h2 className='text-center font-bold font-title text-3xl'>OP & Co</h2>
+                    <Link href="https://opandco.fr/" target="_blank" aria-label="Navigation vers le site de OP & Co">
+                        <div className="container-logo w-12 h-12 rounded-full border-2 p-1 bg-light border-secondary flex items-center justify-center">
+                            <img className='w-full h-full object-contain' src="images/opandco/logo.png" alt="logo op and co" />
+                        </div>
+                    </Link>
+                    <Link href="https://g.co/kgs/FjbMhHL" target="_blank" aria-label="Navigation vers la page google business de OP & Co">
+                        <h2 className='text-center font-bold font-title text-3xl'>OP & Co</h2>
+                    </Link>
                 </div>
                 <p className='text-center text-xl font-title'>Réalisation d'un site Wordpress pour une Correctrice / Relectrice à son compte.</p>
                 <article className='flex flex-col items-center justify-center rounded-lg m-5 w-[90%] md:w-[80%] lg:w-[60%] xl:w-[45%] bg-white/15 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-lg border border-white/18'>
