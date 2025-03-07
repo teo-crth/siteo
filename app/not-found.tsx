@@ -7,7 +7,7 @@ const NotFoundPage = () => {
         <div className='container-404 font-title flex flex-col gap-5 justify-center items-center h-screen'>
             <h1 className='font-bold text-center text-4xl'>404 : Page Introuvable</h1>
             <h2 className='font-bold text-center text-2xl'>Félicitation ! Seuls les aventuriers prennent le risque de se perdre.</h2>
-            <div className="container-img w-[80%] xl:w-[60%] mb-5 flex justify-center items-center">
+            <div className="container-img w-[80%] xl:w-[40%] mb-5 flex justify-center items-center">
                 <img src="/images/nofound.webp" className='rounded-full shadow-[18px_10px_0px_0px]  shadow-secondary' alt="Photo d'une personne avec des ski en pleine montagne dans la poudreuse" />
             </div>
             <Link href='/' aria-label="Navigation vers la page d'accueil">

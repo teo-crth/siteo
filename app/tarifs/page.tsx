@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 
 const Tarifs = () => {
     return (
-        <div className="container-tarifs flex flex-col items-center justify-start w-full p-8 pb-20 gap-5 sm:p-15">
+        <div className="container-tarifs flex flex-col items-center justify-start w-full p-8 pb-20 gap-5">
             <h1 className='text-center font-bold font-title text-6xl text-secondary text-shadow-white'>Mes tarifs</h1>
             <section className="container-tarifs-site flex flex-wrap items-start justify-center w-full gap-3">
                 <h2 className='font-title font-bold text-center text-4xl w-full mb-3'>Prix pour la création d'un site web</h2>

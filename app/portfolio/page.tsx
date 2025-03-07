@@ -5,8 +5,8 @@ import CustomSlider from '../components/ui/CustomSlider';
 
 const Portfolio = () => {
     return (
-        <div className="container-portfolio flex flex-col items-center justify-start w-full p-5">
-            <h1 className='text-center font-bold font-title md:text-6xl lg:text-6xl xl:text-6xl text-4xl text-secondary text-shadow-white m-7'>Projets réalisés</h1>
+        <div className="container-portfolio flex flex-col items-center justify-start w-full p-8">
+            <h1 className='text-center font-bold font-title md:text-6xl lg:text-6xl xl:text-6xl text-4xl text-secondary text-shadow-white mb-7'>Projets réalisés</h1>
             <section className='container-opco w-full flex items-center justify-center flex-col gap-3'>
                 <div className="container-title flex items-center justify-center gap-3">
                     <Link href="https://opandco.fr/" target="_blank" aria-label="Navigation vers le site de OP & Co">

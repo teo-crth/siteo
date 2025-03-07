@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 const DevisVitrinePlus = () => {
     return (
-        <div className='container-devisPage p-8 pb-20 gap-16 sm:p-15 font-title'>
+        <div className='container-devisPage p-8 pb-20 gap-4 font-title flex flex-col justify-start items-center w-full'>
             <h1 className='font-bold text-center md:text-6xl lg:text-6xl xl:text-6xl text-4xl text-secondary text-shadow-white'>Demander un devis pour un site vitrine professionnel</h1>
             <p  className=' font-bold text-center text-2xl'>(Plusieurs pages)</p>
             <h2 className='font-bold text-center text-xl text-amber-500'>Discutons de votre projet de création d'un site par un développeur !</h2>

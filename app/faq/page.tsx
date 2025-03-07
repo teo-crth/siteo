@@ -49,12 +49,96 @@ const Faq = () => {
 
 
   return (
-    <div className='container-faqPage flex flex-col items-center justify-start w-full p-8 pb-20 gap-5 sm:p-15'>
+    <div className='container-faqPage flex flex-col items-center justify-start w-full p-8 pb-20 gap-5'>
       <h1 className='font-title font-bold text-center text-4xl md:text-6xl lg:text-6xl xl:text-6xl text-secondary text-shadow-white'>Foire aux questions</h1>
       <h1 className='font-title font-bold text-center text-2xl md:text-4xl lg:text-4xl xl:text-4xl'>Toutes vos questions sur la création d'un site par un freelance</h1>
+      <section className='container-questions-seo font-title w-full'>
+        <h2 className="font-title font-bold text-center text-2xl md:text-4xl w-full p-10 text-secondary text-shadow-white">Développeur freelance</h2>
+        <div className="question mb-5">
+          <details className='w-full border-b border-gray-300'>
+            <summary className='font-bold text-2xl cursor-pointer p-1 marker:text-secondary' id='services-proposes'>Quels services proposez-vous en tant que développeur freelance ?</summary>
+            <ul className='font-bold text-xl text-justify px-7 md:px-20 mb-2'>
+              <li className='list-disc list-item'>Création de site ou d'application</li>
+              <li className='list-disc list-item'>Modification de site déja existant</li>
+              <li className='list-disc list-item'>Audit SEO</li>
+              <li className='list-disc list-item'>Maintenance des sites créés</li>
+              <li className='list-disc list-item'>Formation</li>
+            </ul>
+          </details>
+        </div>
+        <div className="question mb-5">
+          <details className='w-full border-b border-gray-300'>
+            <summary className='font-bold text-2xl cursor-pointer p-1 marker:text-secondary' id='travailler-freelance-etapes'>Travailler avec un freelance, quelles sont les étapes ?</summary>
+            <ul className='text-xl text-justify px-7 md:px-20 mb-2'>
+              <li className='list-decimal list-item font-bold'>Discuter de vos attentes et du projet</li>
+              <p  className='pb-2'>Cette première phase permettra de comprendre vos besoins précis, afin d'établir un devis au plus juste. Il s'agira d'une prise de contact par téléphone, visio ou en présentiel pour discuter de la portée du projet, des fonctionnalités spécifiques et des attentes précises.</p>
+
+              <li className='list-decimal list-item font-bold'>Livraison d'un devis & des délais</li>
+              <p  className='pb-2'>Grâce aux informations collectées lors de la phase de discussion, un devis détaillé vous sera envoyé. Ce devis comportera le coût global de la prestation, le détail des fonctionnalités à développer, ainsi que les délais estimés pour chaque phase du projet.</p>
+
+              <li className='list-decimal list-item font-bold'>Signature d'un contrat</li>
+              <p  className='pb-2'>Une fois le devis accepté, un contrat formel sera signé pour officialiser l'accord. Ce contrat définira les conditions du projet, notamment les responsabilités de chaque partie, les délais de livraison, les conditions de paiement et les éventuelles révisions. Ainsi que le versement d'un accompte de 30% du montant total.</p>
+
+              <li className='list-decimal list-item font-bold'>Mise en place d'une communication régulière</li>
+              <p  className='pb-2'>Pendant le déroulement du projet, une communication régulière est essentielle. Nous resterons en contact à travers des réunions de suivi, des échanges par email, ou via des outils collaboratifs (en fonction de ce qui vous convient le mieux) pour vous tenir informé de l'avancée du travail.</p>
+
+              <li className='list-decimal list-item font-bold'>Révisions et ajustements</li>
+              <p  className='pb-2'>Lors du processus de développement, il peut être nécessaire de faire des ajustements. Après chaque phase, des révisions seront effectuées pour garantir que le travail corresponde exactement à vos attentes. Cela inclut des modifications en fonction de vos retours.</p>
+
+              <li className='list-decimal list-item font-bold'>Paiement</li>
+              <p  className='pb-2'>Après validation de votre part sur tous les aspects du site, il est maintenant prêt ! Il ne reste plus qu'à effectuer un versement par virement de la somme restante dûe.</p>
+
+              <li className='list-decimal list-item font-bold'>Livraison du site</li>
+              <p  className='pb-2'>Une fois le paiement effectué, le site ou l'application vous sera livré. Vous aurez accès à tous les fichiers nécessaires, ainsi que toute la documentation requise pour l'usage ou l'administration du projet, selon la nature de celui-ci.</p>
+
+              <li className='list-decimal list-item font-bold'>Maintenance si nécessaire</li>
+              <p  className='pb-2'>Après la livraison, si vous souhaitez bénéficier d'un suivi, d'une maintenance continue, ou de mises à jour régulières, un contrat de maintenance pourra être mis en place. Cela permet de garantir que votre site ou application reste performant, sécurisé et adapté à l'évolution de vos besoins.</p>
+            </ul>
+          </details>
+        </div>
+        <div className="question mb-5">
+          <details className='w-full border-b border-gray-300'>
+            <summary className='font-bold text-2xl cursor-pointer p-1 marker:text-secondary' id='technologies'>Quelles technologies maîtrisez-vous ?</summary>
+            <p className='text-xl text-justify mb-2'></p>
+          </details>
+        </div>
+        <div className="question mb-5">
+          <details className='w-full border-b border-gray-300'>
+            <summary className='font-bold text-2xl cursor-pointer p-1 marker:text-secondary' id='processus-projet'>Comment se déroule un projet avec un développeur freelance ?</summary>
+            <p className='text-xl text-justify mb-2'></p>
+          </details>
+        </div>
+        <div className="question mb-5">
+          <details className='w-full border-b border-gray-300'>
+            <summary className='font-bold text-2xl cursor-pointer p-1 marker:text-secondary' id='freelance-ou-agence'>Pourquoi choisir un développeur freelance plutôt qu’une agence ?</summary>
+            <p className='text-xl text-justify mb-2'></p>
+          </details>
+        </div>
+        <div className="question mb-5">
+          <details className='w-full border-b border-gray-300'>
+            <summary className='font-bold text-2xl cursor-pointer p-1 marker:text-secondary' id='temps-creation-site'>Combien de temps prend la création d'un site web ou d'une application ?</summary>
+            <p className='text-xl text-justify mb-2'></p>
+          </details>
+        </div>
+        <div className="question mb-5">
+          <details className='w-full border-b border-gray-300'>
+            <summary className='font-bold text-2xl cursor-pointer p-1 marker:text-secondary' id='paiement'>Quel est le processus de paiement pour un développeur freelance ?</summary>
+            <p className='text-xl text-justify mb-2'></p>
+          </details>
+        </div>
+      </section>
+      <section className='container-clients font-title w-full'>
+        <h2 className="font-title font-bold text-center text-2xl md:text-4xl w-full p-10 text-secondary text-shadow-white">Qui sont mes clients ?</h2>
+        <div className="question mb-5">
+          <details className='w-full border-b border-gray-300'>
+            <summary className='font-bold text-2xl cursor-pointer p-1 marker:text-secondary' id='creation-site-associations'>Création de site pour les associations</summary>
+            <p className='text-xl text-justify mb-2'></p>
+          </details>
+        </div>
+      </section>
       <section className='container-questions-sites font-title w-full'>
         <h2 className="font-title font-bold text-center text-2xl md:text-4xl w-full p-10 text-secondary text-shadow-white">Quel type de site privilégier ?</h2>
-        <div className="question-1 mb-5">
+        <div className="question mb-5">
           <details className='w-full border-b border-gray-300'>
             <summary className='font-bold text-2xl cursor-pointer p-1 marker:text-secondary' id='pourquoi-choisir-un-site-internet-sur-mesure'>Pourquoi choisir un site internet sur-mesure ?</summary>
             <p className='text-xl text-justify mb-2'><strong>Adaptabilité :</strong> Chaque projet est développé en tenant compte des particularités de votre secteur, qu’il soit luxe, tourisme, santé, finance ou éducation, afin de garantir une solution web optimale.</p>
@@ -64,7 +148,7 @@ const Faq = () => {
             <p className='text-xl text-justify mb-2'>Développez votre présence en ligne avec un site web sur-mesure qui reflète vos valeurs, vos services et qui répond aux attentes spécifiques de vos clients dans votre secteur d’activité. Contactez-moi dès aujourd'hui pour discuter de votre projet et obtenir un devis personnalisé pour la création de votre site internet sur-mesure.</p>
           </details>
         </div>
-        <div className="question-2 mb-5">
+        <div className="question mb-5">
           <details className='w-full border-b border-gray-300'>
             <summary className='font-bold text-2xl cursor-pointer p-1 marker:text-secondary' id='pourquoi-choisir-un-site-wordpress-personnalise'>Pourquoi choisir un site WordPress personnalisé ?</summary>
             <p className='text-xl text-justify mb-2'><strong>Solution clé en main :</strong> Je vous propose des sites WordPress sur-mesure, avec des thèmes et des plugins adaptés spécifiquement à votre secteur d'activité, qu'il s'agisse de commerce en ligne, de portfolio, de blog, ou de site vitrine pour votre entreprise.</p>
@@ -75,7 +159,7 @@ const Faq = () => {
             <p className='text-xl text-justify mb-2'>Avec WordPress, vous pouvez évoluer facilement avec votre entreprise, en ajoutant des fonctionnalités personnalisées, des sections ou des pages spécifiques à vos besoins. Que vous ayez besoin d'un blog, d'un e-commerce avec WooCommerce, ou d'un site corporate, WordPress est une solution flexible et scalable.</p>
           </details>
         </div>
-        <div className="question-3 mb-5">
+        <div className="question mb-5">
           <details className='w-full border-b border-gray-300'>
             <summary className='font-bold text-2xl cursor-pointer p-1 marker:text-secondary' id='pourquoi-choisir-un-site-vitrine'>Pourquoi choisir un site vitrine ?</summary>
             <p className='text-xl text-justify mb-2'><strong>Solution clé en main :</strong> Je vous propose des sites WordPress sur-mesure, avec des thèmes et des plugins adaptés spécifiquement à votre secteur d'activité, qu'il s'agisse de commerce en ligne, de portfolio, de blog, ou de site vitrine pour votre entreprise.</p>
@@ -89,7 +173,7 @@ const Faq = () => {
       </section>
       <section className='container-questions-seo font-title w-full'>
         <h2 className="font-title font-bold text-center text-2xl md:text-4xl w-full p-10 text-secondary text-shadow-white">Comprendre le référencement naturel (SEO)</h2>
-        <div className="question-4 mb-5">
+        <div className="question mb-5">
           <details className='w-full border-b border-gray-300'>
             <summary className='font-bold text-2xl cursor-pointer p-1 marker:text-secondary' id='strategie-seo-cest-quoi'>Stratégie SEO (référencement naturel), c'est quoi exactement ?</summary>
             <p className='text-xl text-justify mb-2'><strong>Amélioration du classement sur Google :</strong> Un référencement naturel bien optimisé permet à votre site d’apparaître en première page des résultats de recherche pour des mots-clés pertinents.</p>
@@ -99,6 +183,15 @@ const Faq = () => {
             <p className='text-xl text-justify mb-2'><strong>Référencement local :</strong> Si vous avez un commerce local, je m'assure que votre site soit optimisé pour le référencement local afin d'attirer des clients dans votre région et augmenter vos visites en magasin.</p>
             <p className='text-xl text-justify mb-2'><strong>Audit SEO et suivi des performances :</strong> Je réalise des audits réguliers et des rapports détaillés pour suivre les performances de votre site et ajuster les actions SEO en fonction des résultats obtenus.</p>
             <p className='text-xl text-justify mb-2'><strong>Le référencement naturel</strong> est une stratégie durable qui génère des résultats sur le long terme. Contrairement à la publicité payante (SEA), le SEO vous permet de construire une présence en ligne solide qui continue de croître avec le temps, sans avoir à payer pour chaque clic. Optimisez votre site pour le référencement naturel et attirez plus de visiteurs qualifiés grâce à une stratégie SEO personnalisée. Contactez-moi dès aujourd'hui pour discuter de votre projet et recevoir un audit SEO gratuit.</p>
+          </details>
+        </div>
+      </section>
+      <section className='container-questions-seo font-title w-full'>
+        <h2 className="font-title font-bold text-center text-2xl md:text-4xl w-full p-10 text-secondary text-shadow-white">Un site internet responsive, ça veut dire quoi ?</h2>
+        <div className="question mb-5">
+          <details className='w-full border-b border-gray-300'>
+            <summary className='font-bold text-2xl cursor-pointer p-1 marker:text-secondary' id='responsive-explications'>Site web responsive : explication</summary>
+            <p className='text-xl text-justify mb-2'></p>
           </details>
         </div>
       </section>
