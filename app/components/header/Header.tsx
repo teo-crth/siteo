@@ -19,9 +19,9 @@ const header = () => {
             <div className="container-logo w-[150px] cursor-pointer">
                 <Link href="/" className="cursor-pointer" aria-label="Navigation vers la page d'accueil" >
                     { isDarkMode ?
-                        <img src="/logo/siteo-white.webp" alt="Logo siteo" className='w-full'/>
+                        <img src="/logo/siteo-white.webp" alt="Logo siteo" className='w-[150px]'/>
                         :
-                        <img src="/logo/siteo.webp" alt="Logo siteo" className='w-full'/>
+                        <img src="/logo/siteo.webp" alt="Logo siteo" className='w-[150px]'/>
                     }
                 </Link>
             </div>

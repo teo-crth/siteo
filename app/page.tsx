@@ -14,10 +14,10 @@ export default function Home() {
     <div className="container-homePage pb-20 gap-16 w-full">
       <section className="presentation p-15 w-full flex flex-col justify-center items-center">
         <h1 className="text-center font-bold font-title md:text-6xl lg:text-6xl xl:text-6xl text-4xl text-secondary text-shadow-white">Création de sites web sur-mesure</h1>
-        <h2 className="text-center font-bold font-title md:text-2xl lg:text-2xl xl:text-2xl text-xl text-dark z-2">Développeur freelance à Aix-en-Provence</h2>
-        <h3 className="text-center font-bold font-title md:text-xl lg:text-xl xl:text-xl text-lg text-gray-400 z-2">Site vitrine, Blog, Site E-commerce</h3>
+        <h2 className="text-center font-bold font-title md:text-2xl lg:text-2xl xl:text-2xl text-xl z-2">Développeur freelance à Aix-en-Provence</h2>
+        <h3 className="text-center font-bold font-title md:text-xl lg:text-xl xl:text-xl text-lg text-amber-500 z-2">Site vitrine, Blog, Site E-commerce</h3>
         <div className="container-illustration w-full md:w-[50%] lg:w-[35%] xl:w-[20%] p-5 z-2">
-          <img className="w-full h-full object-cover" src="/images/illustration.png" alt="illustration colorée d'une personne en position de super-héro devant une page web" />
+          <img className="w-full h-full object-cover" src="/images/illustration.webp" alt="illustration colorée d'une personne en position de super-héro devant une page web" />
         </div>
         <div className="container-button w-full flex flex-wrap gap-5 justify-center z-2">
           <Link href="/devis/site-web" className="cursor-pointer z-2" aria-label="Navigation vers la page de demande de devis">
@@ -34,14 +34,14 @@ export default function Home() {
         <h3 className="text-4xl text-center z-2"><strong>Développeur web à Aix-en-Provence</strong>. </h3>
         <p className="text-xl text-justify w-[95%] md:w-[60%] lg:w-[50%] xl:w-[40%] z-2"><strong>Diplômé en informatique & en Marketing digital</strong>, je propose mes services pour la <strong>création de sites internet</strong> sur-mesure, le <strong>référencement naturel</strong>, <strong>la maintenance</strong>, <strong>l'hébergement</strong>, la <strong>formation Wordpress</strong>, l'audit, le conseil, etc. Je vous accompagne dans la réalisation de votre projet web, de la conception à la mise en ligne, en passant par le développement et l'optimisation de votre site internet.</p>
         <div className="container-illustration w-[50%] md:w-[50%] lg:w-[35%] xl:w-[20%] p-5 z-2">
-          <img className="w-full h-full object-cover" src="/images/illustration-3.png" alt="illustration colorée d'une personne en position de super-héro devant une page web" />
+          <img className="w-full h-full object-cover" src="/images/illustration-3.webp" alt="illustration colorée d'une personne en position de super-héro devant une page web" />
         </div>
       </section>
       <Separator type="2" />
       <section className="container-quiSuisJe flex flex-col items-center justify-center gap-5 pb-20 px-5">
         <h2 className="font-bold font-title md:text-6xl lg:text-6xl xl:text-6xl text-4xl text-secondary z-2 text-center text-shadow-white">Mes services</h2>
         <div className="container-illustration w-[50%] md:w-[35%] lg:w-[25%] xl:w-[15%] p-5 z-2 bg-light/35 rounded-full">
-          <img className="w-full h-full object-cover" src="/images/illustration-4.png" alt="illustration colorée d'une personne en position de super-héro devant une page web" />
+          <img className="w-full h-full object-cover" src="/images/illustration-4.webp" alt="illustration colorée d'une personne en position de super-héro devant une page web" />
         </div>
         <div className="container-cards-services w-full flex flex-wrap justify-center items-center gap-3 z-2 mt-7">
           <Link href="/tarifs" className="cursor-pointer z-2 w-[95%] md:w-[32%] lg:w-[25%] xl:w-[20%]" aria-label="Navigation vers la page des tarifs">
