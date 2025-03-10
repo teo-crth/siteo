@@ -231,10 +231,9 @@ const Tarifs = () => {
                     <h3 className='w-full text-center font-bold text-2xl p-5'>Pourquoi autant d'écart de prix pour un même type de site ?</h3>
                     <p className='text-justify text-xl p-4 w-full'>Certains clients ont des besoins spécifiques en terme de fonctionnalités ou de graphisme. Ces spécificités peuvent doubler le temps de travail pour réaliser leur site. C'est pourquoi les fourchettes de prix peuvent être importantes. </p>
                     <p className='text-justify text-xl p-4 w-full'>C'est pour cela qu'il est important d'être le plus précis possible dans la description de vos besoins afin que le devis puisse être ajusté au mieux. Un rendez-vous téléphonique gratuit est idéal pour un devis bien estimé !</p>
-                    <Link href='/devis' className='text-center font-bold text-xl p-5 text-blue-500 cursor-pointer' >
+                    <Link href='/blog/comment-travailler-avec-un-freelance-pour-la-creation-d-un-site-web' className='text-center font-bold text-xl p-5 text-blue-500 cursor-pointer' aria-label="Navigation vers un article récapitulant les étapes lors d'un contrat de création de site internet" >
                         Si le devis nous convient, quelles sont les prochaines étapes ?
                     </Link>
-
                 </article>
             </section>
 

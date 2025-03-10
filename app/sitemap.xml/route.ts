@@ -22,6 +22,7 @@ export async function GET(): Promise<NextResponse> {
     { url: "/mentions-legales", lastModified: new Date().toISOString() },
     { url: "/blog", lastModified: new Date().toISOString() },
     { url: "/blog/pourquoi-chaque-pme-a-besoin-d-un-site-web-professionnel-en-2025", lastModified: new Date().toISOString() },
+    { url: "/blog/comment-travailler-avec-un-freelance-pour-la-creation-d-un-site-web", lastModified: new Date().toISOString() },
   ];
 
   const pages = [

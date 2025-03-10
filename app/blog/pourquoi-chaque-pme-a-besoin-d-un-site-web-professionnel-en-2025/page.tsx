@@ -49,7 +49,7 @@ const Article = () => {
                     développer votre présence en ligne, attirer de <strong>nouveaux clients</strong> et <strong>améliorer votre crédibilité</strong>. Dans cet article, nous allons explorer
                     pourquoi chaque PME a besoin d'un site web et comment cela peut transformer votre activité.
                 </p>
-                <h2 className='font-bold text-left text-2xl pt-20 pb-4'>Pourquoi un site web est crucial pour une PME ?</h2>
+                <h2 className='font-bold text-left text-2xl pt-10 pb-4'>Pourquoi un site web est crucial pour une PME ?</h2>
                 <ul className='text-lg font-bold list-inside list-disc'>
                     <li>Visibilité accrue</li>
                     <li>Crédibilité renforcée</li>
@@ -78,7 +78,7 @@ const Article = () => {
                     de prendre contact à tout moment, même lorsque votre <strong>magasin</strong> ou bureau est fermé. Cela <strong>améliore l'expérience client</strong> et peut également augmenter les ventes,
                     en particulier pour les entreprises de <strong>commerce en ligne</strong>.
                 </p>
-                <h2 className='font-bold text-left text-2xl pt-20 pb-4'>Les avantages d'un site web professionnel pour une PME</h2>
+                <h2 className='font-bold text-left text-2xl pt-10 pb-4'>Les avantages d'un site web professionnel pour une PME</h2>
                 <h3 className='font-bold text-left text-xl py-4'>Amélioration de la visibilité locale et globale</h3>
                 <p className='text-justify text-lg'>
                     Un site web peut améliorer la visibilité de votre entreprise non seulement à <strong>l'échelle locale</strong>, mais aussi à l'échelle mondiale.
@@ -100,7 +100,7 @@ const Article = () => {
                     Un bon SEO permet à votre entreprise de se positionner sur des <strong>mots-clés pertinents</strong> et d'attirer des <strong>clients intéressés</strong> par vos services.
                 </p>
 
-                <h2 className='font-bold text-left text-2xl pt-20 pb-4'>Comment choisir le bon développeur web pour créer votre site ?</h2>
+                <h2 className='font-bold text-left text-2xl pt-10 pb-4'>Comment choisir le bon développeur web pour créer votre site ?</h2>
                 <h3 className='font-bold text-left text-xl py-4'>Expérience et spécialisation</h3>
                 <p className='text-justify text-lg'>
                     Il est important de choisir un <strong>développeur web expérimenté</strong>, en particulier quelqu'un qui comprend les besoins spécifiques des PME.
@@ -129,7 +129,7 @@ const Article = () => {
                     personnelles des utilisateurs.
                 </p>
 
-                <h2 className='font-bold text-left text-2xl pt-20 pb-4'>Comment un site web peut booster votre activité ?</h2>
+                <h2 className='font-bold text-left text-2xl pt-10 pb-4'>Comment un site web peut booster votre activité ?</h2>
                 <h3 className='font-bold text-left text-xl py-4'>Augmentation des conversions</h3>
                 <p className='text-justify text-lg'>
                     Un <strong>site web optimisé</strong> peut améliorer le <strong>taux de conversion</strong> de votre entreprise. Grâce à des appels à l'action clairs et à
@@ -141,7 +141,7 @@ const Article = () => {
                     En effet, le SEO attire un <strong>trafic organique qualifié</strong>, sans avoir besoin de payer pour des publicités payantes comme le Google Ads
                     ou les réseaux sociaux. De plus, un site web bien optimisé peut également améliorer l'efficacité de vos campagnes marketing.
                 </p>
-                <h2 className='font-bold text-left text-2xl pt-20 pb-4'>Conclusion</h2>
+                <h2 className='font-bold text-left text-2xl pt-10 pb-4'>Conclusion</h2>
                 <p className='text-justify text-lg'>
                     En 2025, un site web professionnel est un atout indispensable pour toute PME. Il permet d’augmenter la <strong>visibilité</strong>, d’améliorer la crédibilité,
                     et d’offrir une meilleure <strong>expérience client</strong>. Un site bien conçu peut également avoir un <strong>impact direct sur vos ventes</strong> et
