@@ -165,7 +165,7 @@ const Faq = () => {
         <div className="question mb-5">
           <details className='w-full border-b border-gray-300'>
             <summary className='font-bold text-2xl cursor-pointer p-1 marker:text-secondary' id='paiement'>Quel est le processus de paiement pour un développeur freelance ?</summary>
-            <p className='text-xl text-justify mb-2'>Un accompte de 30% doit être versé par virement à la signature du contrat, afin de limiter les risques des mauvais payeurs. Le paiement restant dûe sera demandé à la livraison du site internet</p>
+            <p className='text-xl text-justify mb-2'>Un accompte de 30% doit être versé par virement à la signature du contrat, afin de limiter les risques des mauvais payeurs. Le paiement restant dûe sera demandé à la livraison du site internet.</p>
           </details>
         </div>
       </section>
@@ -180,8 +180,8 @@ const Faq = () => {
         <div className="question mb-5">
           <details className='w-full border-b border-gray-300'>
             <summary className='font-bold text-2xl cursor-pointer p-1 marker:text-secondary' id='creation-site-associations'>Création de site pour les associations</summary>
-            <p className='text-xl text-justify mb-2'>La création de site pour les associations est un levier essentiel pour améliorer la visibilité en ligne, toucher un public plus large, et communiquer efficacement sur vos projets. Un site web bien conçu permet à votre association de gagner en crédibilité, de rendre ses actions visibles, et de faciliter les interactions avec les membres, les partenaires et les donateurs.La création de site pour les associations est un levier essentiel pour améliorer la visibilité en ligne, toucher un public plus large, et communiquer efficacement sur vos projets. Un site web bien conçu permet à votre association de gagner en crédibilité, de rendre ses actions visibles, et de faciliter les interactions avec les membres, les partenaires et les donateurs.</p>
-            <p className='text-xl text-justify mb-2'>Pour que votre association soit correctement représentée sur Internet, il est crucial de faire appel à un développeur spécialisé qui saura répondre à vos besoins spécifiques tout en optimisant votre site pour le référencement naturel (SEO). Un site web bien développé et bien référencé est un outil puissant pour attirer de nouveaux membres, dynamiser les campagnes de collecte de fonds, et informatiser les démarches administratives.</p>
+            <p className='text-xl text-justify mb-2'>La <strong>création de site pour les associations</strong> est un levier essentiel pour améliorer la visibilité en ligne, <strong>toucher un public plus large</strong>, et <strong>communiquer efficacement</strong> sur vos projets. Un site web bien conçu permet à votre association de <strong>gagner en crédibilité</strong>, de rendre ses <strong>actions visibles</strong>, et de <strong>faciliter les interactions</strong> avec les membres, les partenaires et <strong>les donateurs</strong>.</p>
+            <p className='text-xl text-justify mb-2'>Pour que votre association soit correctement représentée sur Internet, il est crucial de faire appel à un développeur spécialisé qui saura répondre à vos besoins spécifiques tout en optimisant votre site pour le référencement naturel (SEO). Un site web bien développé et bien référencé est un outil puissant pour attirer de nouveaux membres, <strong>dynamiser les campagnes de collecte de fonds</strong>, et <strong>informatiser les démarches administratives</strong>.</p>
           </details>
         </div>
         <div className="question mb-5">
