@@ -15,7 +15,7 @@ export default function Home() {
       <section className="presentation p-15 w-full flex flex-col justify-center items-center">
         <h1 className="text-center font-bold font-title md:text-6xl lg:text-6xl xl:text-6xl text-4xl text-secondary text-shadow-white">Création de sites web sur-mesure</h1>
         <h2 className="text-center font-bold font-title md:text-2xl lg:text-2xl xl:text-2xl text-xl z-2">Développeur freelance à Aix-en-Provence</h2>
-        <h3 className="text-center font-bold font-title md:text-xl lg:text-xl xl:text-xl text-lg text-amber-500 z-2">Site vitrine, Blog, Site E-commerce</h3>
+        <h3 className="text-center font-bold font-title md:text-xl lg:text-xl xl:text-xl text-lg z-2">Site vitrine, Blog, Site E-commerce</h3>
         <div className="container-illustration w-full md:w-[50%] lg:w-[35%] xl:w-[20%] p-5 z-2">
           <img className="w-full h-full object-cover" src="/images/illustration.webp" alt="illustration colorée d'une personne en position de super-héro devant une page web" />
         </div>
