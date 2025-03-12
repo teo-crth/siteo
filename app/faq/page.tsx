@@ -191,6 +191,12 @@ const Faq = () => {
             <p className='text-xl text-justify mb-2'>De plus, un site bien référencé vous amènera une clientèle diversifiée.</p>
           </details>
         </div>
+        <div className="question mb-5">
+          <details className='w-full border-b border-gray-300'>
+            <summary className='font-bold text-2xl cursor-pointer p-1 marker:text-secondary' id='creation-site-associations'>Missions freelance React.js / Node.js</summary>
+            <p className='text-xl text-justify mb-2'>Lorsque des entreprises ont des besoins spécifiques en React, node.js, elles peuvent faire appel à moi pour des missions plus ou moins longue.</p>
+          </details>
+        </div>
       </section>
       <section className='container-questions-sites font-title w-full'>
         <h2 className="font-title font-bold text-center text-2xl md:text-4xl w-full p-10 text-secondary text-shadow-white">Quel type de site privilégier ?</h2>
