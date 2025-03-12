@@ -38,7 +38,7 @@ const Article = () => {
 
     return (
         <div className="container-article flex flex-col justify-start items-center w-full">
-            <div className="container-img w-full h-[500px]">
+            <div className="container-img w-full h-[200px] md:h-[450px]">
                 <img className="w-full h-full object-cover" src="/images/articles/freelance-scrabble.webp" alt="illustration colorée d'une personne en position de super-héro devant une page web" />
             </div>
             <article className="w-[96%] md:w-[70%]  lg:w-[60%] xl:w-[50%] font-title mt-5 mb-15 p-5">
